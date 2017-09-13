@@ -20,7 +20,8 @@
     "lint:fix": "yarn lint --fix"
   },
   "files": [
-    "dist/*.js"
+    "dist/*.js",
+    "lib/*.js"
   ],
   "peerDependencies": {
     "vue": "^2.0.0"
