@@ -18,7 +18,7 @@ const config = {
  *
  * Github: https://github.com/JounQin/vue-qrious
  */`,
-  input: 'lib/index',
+  input: 'lib/vue-qrious',
   output: {
     file: `dist/vue-qrious${isServer ? '' : '.browser'}${isProd ? '.min' : ''}.js`,
     format: 'umd'
@@ -35,12 +35,11 @@ const config = {
   name: 'VueQrious'
 }
 
-isServer &&
-  (config.paths = {
-    qrious: 'node-qrious'
-  })
+if (isServer) {
+  config.paths = {qrious: 'node-qrious'}
+}
 
-isProd &&
+if (isProd) {
   config.plugins.push(
     uglify({
       output: {
@@ -48,5 +47,6 @@ isProd &&
       }
     })
   )
+}
 
 export default config
