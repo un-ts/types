@@ -40,7 +40,7 @@
     "cross-env": "^5.1.0",
     "eslint": "^4.9.0",
     "eslint-config-1stg": "^0.0.5",
-    "rollup": "^0.50.0",
+    "rollup": "^0.53.2",
     "rollup-plugin-babel": "^3.0.2",
     "rollup-plugin-uglify": "^2.0.1",
     "rollup-watch": "^4.0.0"
