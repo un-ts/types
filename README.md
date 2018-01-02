@@ -1,5 +1,7 @@
 # vue-qrious
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/JounQin/vue-qrious.svg)](https://greenkeeper.io/)
+
 [![peerDependencies status](https://david-dm.org/JounQin/vue-qrious/peer-status.svg)](https://david-dm.org/JounQin/vue-qrious?type=peer)
 [![dependency Status](https://david-dm.org/JounQin/vue-qrious/status.svg)](https://david-dm.org/JounQin/vue-qrious)
 [![devDependency Status](https://david-dm.org/JounQin/vue-qrious/dev-status.svg)](https://david-dm.org/JounQin/vue-qrious?type=dev)
