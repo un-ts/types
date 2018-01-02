@@ -1,7 +1,6 @@
 # vue-qrious
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/JounQin/vue-qrious.svg)](https://greenkeeper.io/)
-
 [![peerDependencies status](https://david-dm.org/JounQin/vue-qrious/peer-status.svg)](https://david-dm.org/JounQin/vue-qrious?type=peer)
 [![dependency Status](https://david-dm.org/JounQin/vue-qrious/status.svg)](https://david-dm.org/JounQin/vue-qrious)
 [![devDependency Status](https://david-dm.org/JounQin/vue-qrious/dev-status.svg)](https://david-dm.org/JounQin/vue-qrious?type=dev)
@@ -31,14 +30,14 @@ https://JounQin.github.io/vue-qrious/
 
 ## Available Props
 
-prop      | type                 | default value
-----------|----------------------|--------------
-`background` | `string` (CSS color) | `"#ffffff"`
-`backgroundAlpha` | `number` (0.1-1.0) | `1.0`
-`foreground` | `string` (CSS color) | `"#000000"`
-`foregroundAlpha` | `number` (0.1-1.0) | `1.0`
-`level` | `string` ("L", "M", "Q", "H") | `"L"`
-`mime` | `string` ("image/png", "image/jpeg") | `"image/png"`
-`padding` | `number` | `null`
-`size`    | `number`             | `100`
-`value`   | `string`             |
+| prop              | type                                 | default value |
+| ----------------- | ------------------------------------ | ------------- |
+| `background`      | `string` (CSS color)                 | `"#ffffff"`   |
+| `backgroundAlpha` | `number` (0.1-1.0)                   | `1.0`         |
+| `foreground`      | `string` (CSS color)                 | `"#000000"`   |
+| `foregroundAlpha` | `number` (0.1-1.0)                   | `1.0`         |
+| `level`           | `string` ("L", "M", "Q", "H")        | `"L"`         |
+| `mime`            | `string` ("image/png", "image/jpeg") | `"image/png"` |
+| `padding`         | `number`                             | `null`        |
+| `size`            | `number`                             | `100`         |
+| `value`           | `string`                             |               |
