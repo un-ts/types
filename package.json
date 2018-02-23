@@ -39,7 +39,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "cross-env": "^5.1.3",
     "eslint": "^4.14.0",
-    "eslint-config-1stg": "^0.0.5",
+    "eslint-config-1stg": "^2.0.0",
     "rollup": "^0.56.0",
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-uglify": "^3.0.0",
