@@ -10,7 +10,12 @@ const isServer = ENV === 'server'
 const isProd = NODE_ENV === 'production'
 
 const config = {
-  banner: `/*!
+  input: 'lib/vue-qrious',
+  output: {
+    amd: {
+      id: 'vue-qrious',
+    },
+    banner: `/*!
  * ${pkg.name} ${pkg.description}
  * Version ${pkg.version}
  * Copyright (C) 2017 JounQin <admin@1stg.me>
@@ -18,34 +23,31 @@ const config = {
  *
  * Github: https://github.com/JounQin/vue-qrious
  */`,
-  input: 'lib/vue-qrious',
-  output: {
-    file: `dist/vue-qrious${isServer ? '' : '.browser'}${isProd ? '.min' : ''}.js`,
-    format: 'umd'
+    file: `dist/vue-qrious${isServer ? '' : '.browser'}${
+      isProd ? '.min' : ''
+    }.js`,
+    format: 'umd',
+    name: 'VueQrious',
+    globals: {
+      qrious: 'QRious',
+      'node-qrious': 'QRious',
+    },
   },
   plugins: [babel()],
   external: ['qrious', 'node-qrious'],
-  globals: {
-    qrious: 'QRious',
-    'node-qrious': 'QRious'
-  },
-  amd: {
-    id: 'vue-qrious'
-  },
-  name: 'VueQrious'
 }
 
 if (isServer) {
-  config.paths = {qrious: 'node-qrious'}
+  config.output.paths = { qrious: 'node-qrious' }
 }
 
 if (isProd) {
   config.plugins.push(
     uglify({
       output: {
-        comments: true
-      }
-    })
+        comments: true,
+      },
+    }),
   )
 }
 

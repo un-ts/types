@@ -10,19 +10,49 @@
   "author": "JounQin <admin@1stg.me>",
   "license": "MIT",
   "scripts": {
-    "dev": "yarn client -- --watch",
+    "dev": "yarn client --watch",
     "client": "rollup -c",
     "server": "cross-env ENV=server rollup -c",
     "build": "yarn client && yarn server",
     "build:prod": "cross-env NODE_ENV=production yarn build",
     "dist": "yarn build && yarn build:prod",
     "lint": "eslint . --max-warnings=10",
-    "lint:fix": "yarn lint --fix"
+    "lint:fix": "yarn lint --fix",
+    "precommit": "lint-staged"
   },
-  "files": [
-    "dist/*.js",
-    "lib/*.js"
-  ],
+  "files": ["dist/*.js", "lib/*.js"],
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "modules": false
+        }
+      ],
+      "stage-0"
+    ],
+    "plugins": ["syntax-jsx", "transform-vue-jsx"]
+  },
+  "eslintConfig": {
+    "extends": "1stg"
+  },
+  "eslintIgnore": ["dist"],
+  "lint-staged": {
+    "*.{js,vue}": ["eslint . --max-warnings=10 --fix", "git add"]
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "overrides": [
+      {
+        "files": "*.json",
+        "options": {
+          "printWidth": 150
+        }
+      }
+    ]
+  },
   "peerDependencies": {
     "vue": "^2.0.0"
   },
@@ -31,17 +61,20 @@
     "qrious": "^4.0.2"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "babel-plugin-syntax-jsx": "^6.18.0",
-    "babel-plugin-transform-vue-jsx": "^3.4.3",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-stage-0": "^6.24.1",
-    "cross-env": "^5.1.3",
-    "eslint": "^4.14.0",
-    "eslint-config-1stg": "^0.0.5",
-    "rollup": "^0.57.0",
-    "rollup-plugin-babel": "^3.0.3",
+    "cross-env": "^5.1.4",
+    "eslint": "^4.19.1",
+    "eslint-config-1stg": "^2.1.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.5",
+    "prettier": "^1.12.1",
+    "rollup": "^0.58.2",
+    "rollup-plugin-babel": "^3.0.4",
     "rollup-plugin-uglify": "^3.0.0",
     "rollup-watch": "^4.0.0"
   }

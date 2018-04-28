@@ -12,10 +12,10 @@ new Vue({
       mime: 'image/png',
       padding: 0,
       size: 100,
-      value: 'http://1stg.me'
+      value: 'http://1stg.me',
     }
   },
   components: {
-    Qrious: VueQrious
-  }
+    Qrious: VueQrious,
+  },
 })
