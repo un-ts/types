@@ -1,6 +1,6 @@
 {
   "name": "vue-qrious",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "a vue component of generating qrcode with `qrious`",
   "module": "lib/vue-qrious",
   "main": "dist/vue-qrious",
@@ -17,10 +17,12 @@
     "build:prod": "cross-env NODE_ENV=production yarn build",
     "dist": "yarn build && yarn build:prod",
     "lint": "eslint . --max-warnings=10",
-    "lint:fix": "yarn lint --fix",
     "precommit": "lint-staged"
   },
-  "files": ["dist/*.js", "lib/*.js"],
+  "files": [
+    "dist/*.js",
+    "lib/*.js"
+  ],
   "babel": {
     "presets": [
       [
@@ -31,32 +33,32 @@
       ],
       "stage-0"
     ],
-    "plugins": ["syntax-jsx", "transform-vue-jsx"]
+    "plugins": [
+      "syntax-jsx",
+      "transform-vue-jsx"
+    ]
   },
   "eslintConfig": {
     "extends": "1stg"
   },
-  "eslintIgnore": ["dist"],
+  "eslintIgnore": [
+    "dist"
+  ],
   "lint-staged": {
-    "*.{js,vue}": ["eslint . --max-warnings=10 --fix", "git add"]
+    "*.{js,vue}": [
+      "eslint . --max-warnings=10 --fix",
+      "git add"
+    ]
   },
   "prettier": {
     "semi": false,
     "singleQuote": true,
-    "trailingComma": "all",
-    "overrides": [
-      {
-        "files": "*.json",
-        "options": {
-          "printWidth": 150
-        }
-      }
-    ]
+    "trailingComma": "all"
   },
   "peerDependencies": {
     "vue": "^2.0.0"
   },
-  "dependencies": {
+  "optionalDependencies": {
     "node-qrious": "^4.0.0",
     "qrious": "^4.0.2"
   },
@@ -67,15 +69,15 @@
     "babel-plugin-transform-vue-jsx": "^3.7.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-0": "^6.24.1",
-    "cross-env": "^5.1.5",
+    "cross-env": "^5.1.6",
     "eslint": "^4.19.1",
     "eslint-config-1stg": "^2.1.0",
     "husky": "^0.14.3",
-    "lint-staged": "^7.1.0",
-    "prettier": "^1.12.1",
-    "rollup": "^0.59.0",
+    "lint-staged": "^7.2.0",
+    "prettier": "^1.13.5",
+    "rollup": "^0.60.2",
     "rollup-plugin-babel": "^3.0.4",
-    "rollup-plugin-uglify": "^3.0.0",
+    "rollup-plugin-uglify": "^4.0.0",
     "rollup-watch": "^4.0.0"
   }
 }

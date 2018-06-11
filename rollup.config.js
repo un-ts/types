@@ -1,7 +1,7 @@
 import babel from 'rollup-plugin-babel'
-import uglify from 'rollup-plugin-uglify'
+import { uglify } from 'rollup-plugin-uglify'
 
-const pkg = require('./package.json')
+import pkg from './package.json'
 
 const ENV = process.env.ENV || 'client'
 const NODE_ENV = process.env.NODE_ENV || 'development'
