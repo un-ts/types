@@ -1,9 +1,11 @@
 # vue-qrious
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/JounQin/vue-qrious.svg)](https://greenkeeper.io/)
-[![peerDependencies status](https://david-dm.org/JounQin/vue-qrious/peer-status.svg)](https://david-dm.org/JounQin/vue-qrious?type=peer)
-[![dependency Status](https://david-dm.org/JounQin/vue-qrious/status.svg)](https://david-dm.org/JounQin/vue-qrious)
-[![devDependency Status](https://david-dm.org/JounQin/vue-qrious/dev-status.svg)](https://david-dm.org/JounQin/vue-qrious?type=dev)
+[![Travis](https://img.shields.io/travis/JounQin/vue-qrious.svg)](https://travis-ci.org/JounQin/vue-qrious)
+[![David](https://img.shields.io/david/peer/JounQin/vue-qrious.svg)](https://david-dm.org/JounQin/vue-qrious?type=peer)
+[![David](https://img.shields.io/david/optional/JounQin/vue-qrious.svg)](https://david-dm.org/JounQin/vue-qrious?type=optional)
+[![David Dev](https://img.shields.io/david/dev/JounQin/vue-qrious.svg)](https://david-dm.org/JounQin/vue-qrious?type=dev)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 a [vue](https://www.npmjs.com/package/vue) component of generating qrcode with [qrious](https://github.com/neocotic/qrious)
 
