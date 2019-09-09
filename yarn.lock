@@ -74,14 +74,16 @@
   resolved "https://registry.yarnpkg.com/@1stg/prettier-config/-/prettier-config-0.2.0.tgz#853c1142834f31d9287cd9e30f2b91d46e4961d6"
   integrity sha512-wL0qdfsJyHQvOO0vG50StqTSIOX9kauhu6NbLHMgAXE+s3rQ4/N0slwAwYCrqHSwYRVqpeqN8EblYF6UIZiwZQ==
 
-"@1stg/rollup-config@^0.4.1":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@1stg/rollup-config/-/rollup-config-0.4.1.tgz#f9df4a8e9769050c010708f946b72a6804382144"
-  integrity sha512-cqKrUG3EaRHiGuEaX4FLzcDfJReueURKgpVg+7gIvaJzKoRN0KCmrGIfBvSBuYGBGF/aB0JIJ1eRZ7q/s82f9Q==
+"@1stg/rollup-config@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@1stg/rollup-config/-/rollup-config-0.7.0.tgz#377c8d3349d52fd20165da40e52290943b3357d5"
+  integrity sha512-TMDrCLl97TJbXkxtAtQL0L6JSb6Q8NQLhuma3HEsj74xOwdaED6Lxg7/nAQNnV4zhWGMUa4leDEcbCRkJTyOIg==
   dependencies:
+    builtin-modules "^3.1.0"
     lodash "^4.17.15"
     rollup-plugin-babel "^4.3.3"
     rollup-plugin-commonjs "^10.1.0"
+    rollup-plugin-json "^4.0.0"
     rollup-plugin-node-resolve "^5.2.0"
     rollup-plugin-terser "^5.1.1"
     rollup-plugin-typescript "^1.0.1"
@@ -11365,6 +11367,13 @@ rollup-plugin-commonjs@^10.1.0:
     resolve "^1.11.0"
     rollup-pluginutils "^2.8.1"
 
+rollup-plugin-json@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-json/-/rollup-plugin-json-4.0.0.tgz#a18da0a4b30bf5ca1ee76ddb1422afbb84ae2b9e"
+  integrity sha512-hgb8N7Cgfw5SZAkb3jf0QXii6QX/FOkiIq2M7BAQIEydjHvTyxXHQiIzZaTFgx1GK0cRCHOCBHIyEkkLdWKxow==
+  dependencies:
+    rollup-pluginutils "^2.5.0"
+
 rollup-plugin-node-resolve@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/rollup-plugin-node-resolve/-/rollup-plugin-node-resolve-5.2.0.tgz#730f93d10ed202473b1fb54a5997a7db8c6d8523"
@@ -13234,11 +13243,9 @@ vue-eslint-parser@^5.0.0:
 
 "vue-qrcode@link:packages/vue-qrcode/src":
   version "0.0.0"
-  uid ""
 
 "vue-qrious@link:packages/vue-qrious/src":
   version "0.0.0"
-  uid ""
 
 vue@^2.6.10:
   version "2.6.10"
