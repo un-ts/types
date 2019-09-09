@@ -99,10 +99,10 @@
     stylelint-prettier "^1.1.1"
     stylelint-scss "^3.10.0"
 
-"@1stg/tsconfig@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@1stg/tsconfig/-/tsconfig-0.4.0.tgz#615eb2cfea5cb84b2096a33ad1401b753681c357"
-  integrity sha512-KyXevvE1QLwz1b/VeDpuSM0/yJBeB1ob0rerXvqoDvjhdJR9xnbMho8eFrm6UqDMNDNTXZFIKCDMqwt4ti+8yA==
+"@1stg/tsconfig@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@1stg/tsconfig/-/tsconfig-0.5.0.tgz#517365d453f99aa8fa258ecad17696b4496b846e"
+  integrity sha512-c5qYRR8/ufH74xeRo7KUAixnsT0oxRu11quMgweKPAart7Y3+KgXWVX1oYmu7RJK6V7/pssYYJJZEGZcZKljxA==
 
 "@1stg/tslint-config@^0.3.0":
   version "0.3.0"
@@ -13234,11 +13234,9 @@ vue-eslint-parser@^5.0.0:
 
 "vue-qrcode@link:packages/vue-qrcode/src":
   version "0.0.0"
-  uid ""
 
 "vue-qrious@link:packages/vue-qrious/src":
   version "0.0.0"
-  uid ""
 
 vue@^2.6.10:
   version "2.6.10"
