@@ -1,6 +1,12 @@
 {
   "name": "@rxts/types",
   "version": 2,
+  "alias": [
+    "types.now.sh"
+  ],
+  "github": {
+    "silent": true
+  },
   "builds": [
     {
       "src": "*.md",
