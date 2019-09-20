@@ -1,6 +1,6 @@
 {
   "name": "@d-ts/vue",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Additional Vue TypeScript Type Definitions",
   "repository": "https://github.com/rx-ts/types/blob/master/packages/vue",
   "author": "JounQin <admin@1stg.me>",
