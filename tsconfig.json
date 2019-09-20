@@ -1,7 +1,9 @@
 {
   "extends": "@1stg/tsconfig/tsconfig",
   "compilerOptions": {
+    "baseUrl": ".",
+    "module": "commonjs",
     "incremental": false,
-    "typeRoots": ["@types", "@d-ts"]
+    "typeRoots": ["node_modules/@types", "packages"]
   }
 }
