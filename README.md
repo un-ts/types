@@ -1,3 +1,3 @@
 # @rxts/types
 
-TypeScript type definitions same as DefinitelyTyped.
+TypeScript Type Definitions same as DefinitelyTyped.

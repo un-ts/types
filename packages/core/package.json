@@ -1,0 +1,20 @@
+{
+  "name": "@d-ts/core",
+  "version": "0.0.0",
+  "description": "Core/Global TypeScript Type Definitions",
+  "repository": "https://github.com/rx-ts/types/blob/master/packages/core",
+  "author": "JounQin <admin@1stg.me>",
+  "license": "MIT",
+  "types": "index",
+  "keywords": [
+    "TypeScript",
+    "dts",
+    "ts",
+    "types",
+    "typings",
+    "definitions"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

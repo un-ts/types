@@ -1,0 +1,5 @@
+*.log
+.changelog
+.type-coverage
+lib
+node_modules

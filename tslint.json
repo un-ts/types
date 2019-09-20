@@ -1,0 +1,7 @@
+{
+  "extends": ["dtslint/dtslint", "@1stg/tslint-config"],
+  "rules": {
+    "no-reference": false,
+    "no-single-declare-module": false
+  }
+}
