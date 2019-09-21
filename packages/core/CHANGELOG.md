@@ -14,23 +14,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [0.3.0](https://github.com/rx-ts/types/blob/master/packages/core/compare/@d-ts/core@0.2.0...@d-ts/core@0.3.0) (2019-09-21)
+# [0.3.0](https://github.com/rx-ts/types/compare/@d-ts/core@0.2.0...@d-ts/core@0.3.0) (2019-09-21)
 
 
 ### Features
 
-* add @d-ts/bin package, close [#56](https://github.com/rx-ts/types/blob/master/packages/core/issues/56) ([7bc08d7](https://github.com/rx-ts/types/blob/master/packages/core/commit/7bc08d7))
+* add @d-ts/bin package, close [#56](https://github.com/rx-ts/types/issues/56) ([7bc08d7](https://github.com/rx-ts/types/commit/7bc08d7))
 
 
 
 
 
-# [0.2.0](https://github.com/rx-ts/types/blob/master/packages/core/compare/@d-ts/core@0.1.0...@d-ts/core@0.2.0) (2019-09-20)
+# [0.2.0](https://github.com/rx-ts/types/compare/@d-ts/core@0.1.0...@d-ts/core@0.2.0) (2019-09-20)
 
 
 ### Features
 
-* add @d-ts/vue package, improve dtslint usage ([2d67c16](https://github.com/rx-ts/types/blob/master/packages/core/commit/2d67c16))
+* add @d-ts/vue package, improve dtslint usage ([2d67c16](https://github.com/rx-ts/types/commit/2d67c16))
 
 
 
@@ -41,4 +41,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* first blood, add @d-ts/types package ([6111b7e](https://github.com/rx-ts/types/blob/master/packages/core/commit/6111b7e))
+* first blood, add @d-ts/types package ([6111b7e](https://github.com/rx-ts/types/commit/6111b7e))

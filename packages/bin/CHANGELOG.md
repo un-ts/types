@@ -19,4 +19,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* add @d-ts/bin package, close [#56](https://github.com/rx-ts/types/blob/master/packages/bin/issues/56) ([7bc08d7](https://github.com/rx-ts/types/blob/master/packages/bin/commit/7bc08d7))
+* add @d-ts/bin package, close [#56](https://github.com/rx-ts/types/issues/56) ([7bc08d7](https://github.com/rx-ts/types/commit/7bc08d7))

@@ -14,12 +14,12 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [0.2.0](https://github.com/rx-ts/types/blob/master/packages/vue/compare/@d-ts/vue@0.1.0...@d-ts/vue@0.2.0) (2019-09-21)
+# [0.2.0](https://github.com/rx-ts/types/compare/@d-ts/vue@0.1.0...@d-ts/vue@0.2.0) (2019-09-21)
 
 
 ### Features
 
-* add @d-ts/bin package, close [#56](https://github.com/rx-ts/types/blob/master/packages/vue/issues/56) ([7bc08d7](https://github.com/rx-ts/types/blob/master/packages/vue/commit/7bc08d7))
+* add @d-ts/bin package, close [#56](https://github.com/rx-ts/types/issues/56) ([7bc08d7](https://github.com/rx-ts/types/commit/7bc08d7))
 
 
 
@@ -30,4 +30,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* add @d-ts/vue package, improve dtslint usage ([2d67c16](https://github.com/rx-ts/types/blob/master/packages/vue/commit/2d67c16))
+* add @d-ts/vue package, improve dtslint usage ([2d67c16](https://github.com/rx-ts/types/commit/2d67c16))
