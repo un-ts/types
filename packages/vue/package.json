@@ -2,7 +2,11 @@
   "name": "@d-ts/vue",
   "version": "0.2.0",
   "description": "Additional Vue TypeScript Type Definitions",
-  "repository": "https://github.com/rx-ts/types/blob/master/packages/vue",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rx-ts/types.git",
+    "directory": "packages/vue"
+  },
   "author": "JounQin <admin@1stg.me>",
   "license": "MIT",
   "types": "index",

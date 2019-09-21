@@ -2,7 +2,11 @@
   "name": "@d-ts/core",
   "version": "0.3.0",
   "description": "Core/Global TypeScript Type Definitions",
-  "repository": "https://github.com/rx-ts/types/blob/master/packages/core",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rx-ts/types.git",
+    "directory": "packages/core"
+  },
   "author": "JounQin <admin@1stg.me>",
   "license": "MIT",
   "types": "index",

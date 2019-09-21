@@ -10,8 +10,8 @@
     "packages/*"
   ],
   "scripts": {
-    "build:ts": "tsc -P packages/bin/tsconfig.json",
-    "build:bundle": "r -i ''",
+    "build:ts": "tsc -b",
+    "build:bundle": "r",
     "build": "run-p build:*",
     "lint:es": "eslint . --ext js,md,mdx,ts,tsx -f friendly",
     "lint:ts": "tslint -p . -t stylish",
@@ -26,7 +26,7 @@
     "@1stg/husky-config": "^0.3.0",
     "@1stg/lint-staged": "^0.7.4",
     "@1stg/prettier-config": "^0.2.0",
-    "@1stg/rollup-config": "^0.9.4",
+    "@1stg/rollup-config": "^0.9.5",
     "@1stg/tsconfig": "^0.5.1",
     "@1stg/tslint-config": "^0.3.2",
     "@babel/core": "^7.6.0",

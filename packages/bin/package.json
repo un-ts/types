@@ -2,7 +2,11 @@
   "name": "@d-ts/bin",
   "version": "0.1.0",
   "description": "Link @d-ts packages to @types automatically",
-  "repository": "https://github.com/rx-ts/types/blob/master/packages/bin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rx-ts/types.git",
+    "directory": "packages/bin"
+  },
   "author": "JounQin <admin@1stg.me>",
   "license": "MIT",
   "engines": {

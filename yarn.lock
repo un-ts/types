@@ -71,10 +71,10 @@
   resolved "https://registry.yarnpkg.com/@1stg/prettier-config/-/prettier-config-0.2.0.tgz#853c1142834f31d9287cd9e30f2b91d46e4961d6"
   integrity sha512-wL0qdfsJyHQvOO0vG50StqTSIOX9kauhu6NbLHMgAXE+s3rQ4/N0slwAwYCrqHSwYRVqpeqN8EblYF6UIZiwZQ==
 
-"@1stg/rollup-config@^0.9.4":
-  version "0.9.4"
-  resolved "https://registry.yarnpkg.com/@1stg/rollup-config/-/rollup-config-0.9.4.tgz#8a8768cf85782909c6695c4c3b939c63aeab8108"
-  integrity sha512-wGVBRx+mwgjJFVarjIWyKQ823hi10W5YcsyUbjvsBN9og6vs0qd9EsfS30QVYrQgWgc8+bhHi2nvJmvVxRCgNw==
+"@1stg/rollup-config@^0.9.5":
+  version "0.9.5"
+  resolved "https://registry.yarnpkg.com/@1stg/rollup-config/-/rollup-config-0.9.5.tgz#c918cad1ca8687773168f5159deafc66dbd3e074"
+  integrity sha512-7w1nrfmAI0dPlv3dVG7p3RlOLrXvimEZ/hppwdCx43NM4vzFbrMGkBQVwClQkZJJp6FEBqSailozdduYNbWbVA==
   dependencies:
     "@babel/preset-env" "^7.6.0"
     builtin-modules "^3.1.0"
