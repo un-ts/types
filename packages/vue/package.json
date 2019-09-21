@@ -1,6 +1,6 @@
 {
   "name": "@d-ts/vue",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Additional Vue TypeScript Type Definitions",
   "repository": {
     "type": "git",
