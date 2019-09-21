@@ -4,7 +4,7 @@
   "description": "Link @d-ts packages to @types automatically",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rx-ts/types.git",
+    "url": "https://github.com/rx-ts/types.git",
     "directory": "packages/bin"
   },
   "author": "JounQin <admin@1stg.me>",

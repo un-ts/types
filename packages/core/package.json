@@ -4,7 +4,7 @@
   "description": "Core/Global TypeScript Type Definitions",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rx-ts/types.git",
+    "url": "https://github.com/rx-ts/types.git",
     "directory": "packages/core"
   },
   "author": "JounQin <admin@1stg.me>",
