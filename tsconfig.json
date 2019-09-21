@@ -2,8 +2,10 @@
   "extends": "@1stg/tsconfig/tsconfig",
   "compilerOptions": {
     "baseUrl": ".",
-    "module": "commonjs",
     "incremental": false,
+    "module": "commonjs",
+    "outDir": "lib",
+    "skipLibCheck": true,
     "typeRoots": ["node_modules/@types", "packages"]
   }
 }

@@ -17,6 +17,9 @@
     "typings",
     "definitions"
   ],
+  "scripts": {
+    "postinstall": "t || exit 0"
+  },
   "publishConfig": {
     "access": "public"
   }
