@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.2](https://github.com/rx-ts/types/compare/@d-ts/bin@0.3.1...@d-ts/bin@0.3.2) (2019-10-29)
+
+
+### Bug Fixes
+
+* remove postinstall scripts in internal pkgs ([70c5d68](https://github.com/rx-ts/types/commit/70c5d68190df3b4ec9e323119d8acabc320579e9))
+
+
+
+
+
 ## [0.3.1](https://github.com/rx-ts/types/compare/@d-ts/bin@0.3.0...@d-ts/bin@0.3.1) (2019-10-29)
 
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.3](https://github.com/rx-ts/types/compare/@d-ts/vue@0.2.2...@d-ts/vue@0.2.3) (2019-10-29)
+
+
+### Bug Fixes
+
+* remove postinstall scripts in internal pkgs ([70c5d68](https://github.com/rx-ts/types/commit/70c5d68190df3b4ec9e323119d8acabc320579e9))
+
+
+
+
+
 ## [0.2.2](https://github.com/rx-ts/types/compare/@d-ts/vue@0.2.1...@d-ts/vue@0.2.2) (2019-09-21)
 
 **Note:** Version bump only for package @d-ts/vue
