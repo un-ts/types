@@ -1,6 +1,6 @@
 {
   "name": "@d-ts/bin",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Link @d-ts packages to @types automatically",
   "repository": {
     "type": "git",

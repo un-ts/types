@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/rx-ts/types/compare/@d-ts/bin@0.3.0...@d-ts/bin@0.3.1) (2019-10-29)
+
+
+### Bug Fixes
+
+* **bin:** support postinstall t in root package.json ([15cbc72](https://github.com/rx-ts/types/commit/15cbc72c7da8283246627a401d0b19fcb52c0771))
+
+
+
+
+
 # [0.3.0](https://github.com/rx-ts/types/compare/@d-ts/bin@0.1.2...@d-ts/bin@0.3.0) (2019-10-29)
 
 
