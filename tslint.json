@@ -1,10 +1,10 @@
 {
-  "extends": ["dtslint/dtslint", "@1stg/tslint-config"],
+  "extends": ["dtslint/dtslint", "@1stg/tslint-config/eslint"],
   "rules": {
     "no-reference": false,
     "no-single-declare-module": false
   },
   "linterOptions": {
-    "exclude": ["node_modules/**", "**/lib/**"]
+    "exclude": ["**/lib/**", "**/node_modules/**"]
   }
 }

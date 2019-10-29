@@ -26,8 +26,8 @@ export default (dtsDir: string) => {
     return
   }
 
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  const pkgName = require(pkg).name
+  // eslint-disable-next-line @typescript-eslint/no-require-imports, @typescript-eslint/no-var-requires
+  const { name: pkgName }: { name: string } = require(pkg)
   if (!pkgName.startsWith(PKG_PREFIX)) {
     return
   }
