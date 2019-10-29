@@ -15,8 +15,7 @@ readdir('packages')
         .map(pkg => exec(`yarn dtslint --expectOnly packages/${pkg}`)),
     ),
   )
-  .catch(e => {
-    // tslint:disable-next-line no-console
+  .catch((e: Error) => {
     console.error(e)
     process.exitCode = 1
   })

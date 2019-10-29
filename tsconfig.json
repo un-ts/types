@@ -3,6 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "incremental": false,
+    "noEmit": true,
     "module": "commonjs",
     "typeRoots": ["node_modules/@types", "packages"]
   },
