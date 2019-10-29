@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/rx-ts/types/compare/@d-ts/core@0.3.2...@d-ts/core@0.4.0) (2019-10-29)
+
+
+### Features
+
+* **core:** add styles and html/pug definitions ([e382a24](https://github.com/rx-ts/types/commit/e382a2461cc2bb50ec4fc907c053e4621b7641de))
+
+
+
+
+
 ## [0.3.2](https://github.com/rx-ts/types/compare/@d-ts/core@0.3.1...@d-ts/core@0.3.2) (2019-09-21)
 
 **Note:** Version bump only for package @d-ts/core
