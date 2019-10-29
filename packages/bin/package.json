@@ -2,11 +2,8 @@
   "name": "@d-ts/bin",
   "version": "0.3.1",
   "description": "Link @d-ts packages to @types automatically",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rx-ts/types.git",
-    "directory": "packages/bin"
-  },
+  "repository": "git+https://github.com/rx-ts/types.git",
+  "homepage": "https://github.com/rx-ts/types/tree/master/packages/bin",
   "author": "JounQin <admin@1stg.me>",
   "license": "MIT",
   "engines": {
@@ -24,12 +21,6 @@
     "cli.js",
     "lib"
   ],
-  "scripts": {
-    "postinstall": "t || exit 0"
-  },
-  "dependencies": {
-    "@pkgr/utils": "^0.1.3"
-  },
   "publishConfig": {
     "access": "public"
   }

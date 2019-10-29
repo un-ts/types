@@ -2,20 +2,14 @@
   "name": "@d-ts/vue",
   "version": "0.2.2",
   "description": "Additional Vue TypeScript Type Definitions",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rx-ts/types.git",
-    "directory": "packages/vue"
-  },
+  "repository": "git+https://github.com/rx-ts/types.git",
+  "homepage": "https://github.com/rx-ts/types/tree/master/packages/vue",
   "author": "JounQin <admin@1stg.me>",
   "license": "MIT",
-  "types": "index",
+  "types": "index.d.ts",
   "files": [
     "*.d.ts"
   ],
-  "peerDependencies": {
-    "vue": ">=2.0.0"
-  },
   "keywords": [
     "TypeScript",
     "dts",
@@ -24,8 +18,8 @@
     "typings",
     "definitions"
   ],
-  "scripts": {
-    "postinstall": "t || exit 0"
+  "peerDependencies": {
+    "vue": ">=2.0.0"
   },
   "publishConfig": {
     "access": "public"

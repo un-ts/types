@@ -20,22 +20,10 @@ const link = (dtsDir: string, pkgName: string) => {
 }
 
 export default (dtsDir: string) => {
-  const pkg = resolve('package.json')
-
-  if (!fs.existsSync(pkg)) {
+  if (!fs.existsSync(dtsDir)) {
+    console.warn('no `@d-ts` packages found')
     return
   }
-
-  // eslint-disable-next-line @typescript-eslint/no-require-imports, @typescript-eslint/no-var-requires
-  const { name: pkgName }: { name: string } = require(pkg)
-  if (!pkgName.startsWith(PKG_PREFIX)) {
-    return
-  }
-
   const linkDts = link.bind(null, dtsDir)
-  if (pkgName === PRIMARY_PKG) {
-    fs.readdirSync(dtsDir).forEach(linkDts)
-  } else {
-    linkDts(pkgName.replace(PKG_PREFIX, ''))
-  }
+  fs.readdirSync(dtsDir).forEach(linkDts)
 }
