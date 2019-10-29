@@ -44,6 +44,15 @@ yarn add -D @d-ts/bin
 npm i -D @d-ts/bin
 ```
 
+```jsonc
+// package.json
+{
+  "scripts": {
+    "postinstall": "t"
+  }
+}
+```
+
 ### Prefer Configuring Manually
 
 ```jsonc

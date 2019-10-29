@@ -1,5 +1,11 @@
 #!/usr/bin/env node
-const path = require('path')
+const { resolve } = require('path')
+
+const { tryFile } = require('@pkgr/utils')
+
 module.exports = require('./lib/cjs')(
-  path.resolve(process.argv[1], '../../@d-ts'),
+  tryFile(
+    [resolve(process.argv[1], '../../@d-ts'), resolve('node_modules/@d-ts')],
+    true,
+  ),
 )
