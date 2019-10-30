@@ -1,13 +1,5 @@
 /* eslint-disable import/no-duplicates */
 // tslint:disable: ordered-imports
-declare module 'html-webpack-plugin' {
-  namespace HtmlWebpackPlugin {
-    interface Options {
-      alwaysWriteToDisk?: boolean
-      inlineSource?: string | RegExp
-    }
-  }
-}
 
 declare module 'html-webpack-harddisk-plugin' {
   import { Plugin } from 'webpack'
