@@ -2148,16 +2148,16 @@
   resolved "https://registry.yarnpkg.com/@pkgr/named-exports/-/named-exports-0.3.0.tgz#fffb72c50eb359f71d22066f5ae9eefa9a8c15e2"
   integrity sha512-oNStMLh73dEmn443mmqPtdzAqY7FzudJDQXsgBI0lk0m/DI8SqH50IwHVX4NQaaAeIQ+5mx52qEaO34khHIUuA==
 
-"@pkgr/rollup@^0.6.3":
-  version "0.6.3"
-  resolved "https://registry.yarnpkg.com/@pkgr/rollup/-/rollup-0.6.3.tgz#51464d9a5e0bf78189fe76320b1f0314ab8d4e94"
-  integrity sha512-4k0pwJXA62m1PHtp2NcCWvrFqNTLn+x5x4hPvRN6Vikv2dzC9ecbZbGyFSYnxAtsM8i7oQOoTRbqcwXDfYcnNg==
+"@pkgr/rollup@^0.6.4":
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/@pkgr/rollup/-/rollup-0.6.4.tgz#ef14f8e46d57917bc21771a3d3139d047ff0129a"
+  integrity sha512-bI890Qxo9vanJGS1CrJ7uN8TbzV6siLTAvv5fyJWKeN7lvIH9hV4JR9KgGs7udzE7H0aDUCZijGEq/Nv9G7wzA==
   dependencies:
     "@babel/preset-env" "^7.6.3"
     "@pkgr/es-modules" "^0.2.1"
     "@pkgr/named-exports" "^0.3.0"
     "@pkgr/umd-globals" "^0.3.0"
-    "@pkgr/utils" "^0.1.3"
+    "@pkgr/utils" "^0.1.4"
     "@rollup/plugin-replace" "^2.2.0"
     "@rxts/rollup-plugin-alias" "^0.1.1"
     builtin-modules "^3.1.0"
@@ -2182,10 +2182,20 @@
   resolved "https://registry.yarnpkg.com/@pkgr/umd-globals/-/umd-globals-0.3.0.tgz#ba82ddc4b6c2f864b4635fa8a6257f65f57b40b3"
   integrity sha512-tnSeL23iFiqgmN6ISWG5cTJ/Cv7Kol81MolfPowYj63rAtEXyr0p1uHBXxFWUyM7WNUGJSUw98xdOdTzh1+BaQ==
 
-"@pkgr/utils@^0.1.2", "@pkgr/utils@^0.1.3":
+"@pkgr/utils@^0.1.2":
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/@pkgr/utils/-/utils-0.1.3.tgz#c554947c1894f550cd820db851695fa42789c300"
   integrity sha512-Y+5iNhwtgtgFQdlcOdpq+wvcCNpZNYbAoigoidnRX0zSFCEdoZNr+zuQ+RCBrFVNhQDwnA6LFAHc17Wx8UDK4w==
+  dependencies:
+    chalk "^2.4.2"
+    cross-spawn "^7.0.1"
+    open "^7.0.0"
+    tslib "^1.10.0"
+
+"@pkgr/utils@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@pkgr/utils/-/utils-0.1.4.tgz#6391f367a2811d842d98a175d9b77fbc27445ca0"
+  integrity sha512-VGjovf2JHPpv6NY+zZmLRnLxfqFChZ5StuidjWWRott6+9sNu2aId9/kiiL0nqcd1G9XZVIKLAdNHvNXC5vWrg==
   dependencies:
     chalk "^2.4.2"
     cross-spawn "^7.0.1"
@@ -2384,10 +2394,15 @@
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
-"@types/node@*", "@types/node@^12.0.2", "@types/node@^12.11.1", "@types/node@^12.11.7":
+"@types/node@*", "@types/node@^12.0.2", "@types/node@^12.11.1":
   version "12.11.7"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.11.7.tgz#57682a9771a3f7b09c2497f28129a0462966524a"
   integrity sha512-JNbGaHFCLwgHn/iCckiGSOZ1XYHsKFwREtzPwSGCVld1SGhOlmZw2D4ZI94HQCrBHbADzW9m4LER/8olJTRGHA==
+
+"@types/node@^12.12.0":
+  version "12.12.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.0.tgz#ff3201972d6dc851a9275308a17b9b5094e68057"
+  integrity sha512-6N8Sa5AaENRtJnpKXZgvc119PKxT1Lk9VPy4kfT8JF23tIe1qDfaGkBR2DRKJFIA7NptMz+fps//C6aLi1Uoug==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
