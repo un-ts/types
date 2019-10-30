@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/rx-ts/types/compare/@d-ts/core@0.5.1...@d-ts/core@0.6.0) (2019-10-30)
+
+
+### Features
+
+* add svelte and webpack plugins definitions ([8c726cd](https://github.com/rx-ts/types/commit/8c726cd0ce2641b3ab9a4516d40cc0cd2544bb8b))
+
+
+
+
+
 ## [0.5.1](https://github.com/rx-ts/types/compare/@d-ts/core@0.5.0...@d-ts/core@0.5.1) (2019-10-29)
 
 
