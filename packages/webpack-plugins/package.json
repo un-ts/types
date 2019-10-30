@@ -1,0 +1,30 @@
+{
+  "name": "@d-ts/webpack-plugins",
+  "version": "0.0.0",
+  "description": "Additional webpack and related plugins TypeScript Type Definitions",
+  "repository": "git+https://github.com/rx-ts/types.git",
+  "homepage": "https://github.com/rx-ts/types/tree/master/packages/webpack-plugins",
+  "author": "JounQin <admin@1stg.me>",
+  "license": "MIT",
+  "types": "index.d.ts",
+  "files": [
+    "*.d.ts"
+  ],
+  "keywords": [
+    "TypeScript",
+    "dts",
+    "ts",
+    "types",
+    "typings",
+    "definitions",
+    "webpack",
+    "webpack-plugins"
+  ],
+  "dependencies": {
+    "@types/html-webpack-plugin": "*",
+    "@types/webpack": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
