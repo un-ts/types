@@ -23,7 +23,9 @@
     "publish": {
       "ignoreChanges": [
         "test",
-        "*.md"
+        "*.md",
+        "tsconfig.json",
+        "tslint.json"
       ]
     }
   }

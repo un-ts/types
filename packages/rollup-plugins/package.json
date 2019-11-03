@@ -1,0 +1,26 @@
+{
+  "name": "@d-ts/rollup-plugins",
+  "version": "0.0.0",
+  "description": "Additional rollup and related plugins TypeScript Type Definitions",
+  "repository": "git+https://github.com/rx-ts/types.git",
+  "homepage": "https://github.com/rx-ts/types/tree/master/packages/rollup-plugins",
+  "author": "JounQin <admin@1stg.me>",
+  "license": "MIT",
+  "types": "index.d.ts",
+  "files": [
+    "*.d.ts"
+  ],
+  "keywords": [
+    "TypeScript",
+    "dts",
+    "ts",
+    "types",
+    "typings",
+    "definitions",
+    "rollup",
+    "rollup-plugins"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

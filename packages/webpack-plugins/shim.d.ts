@@ -1,6 +1,4 @@
-/* eslint-disable import/no-duplicates */
 // tslint:disable: ordered-imports
-
 declare module 'html-webpack-harddisk-plugin' {
   import { Plugin } from 'webpack'
   class HtmlWebpackHarddiskPlugin extends Plugin {}
