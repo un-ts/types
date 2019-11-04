@@ -12,11 +12,14 @@ declare module 'html-webpack-inline-source-plugin' {
 }
 
 declare module 'lazy-compile-webpack-plugin' {
-  import { Plugin } from 'webpack'
+  import { Plugin, Stats } from 'webpack'
 
   namespace LazyCompileWebpackPlugin {
     interface Options {
       refreshAfterCompile?: boolean
+      ignores?:
+        | RegExp[]
+        | ((request: string, wpModule: Stats.Reason) => boolean)
     }
   }
 
