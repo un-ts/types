@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@1stg/babel-preset@^0.8.2":
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/@1stg/babel-preset/-/babel-preset-0.8.2.tgz#d46c272c64d51c73fe0e005ae8e7724f2973e86b"
-  integrity sha512-5TH1kyVnEgpPODFtPU1gpk95/kihLMtnF4wLZE1T/gvN6tiShKTxqlDvZgandCpSk4eMM3cuCAuGv8Zd4rtfLQ==
+"@1stg/babel-preset@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@1stg/babel-preset/-/babel-preset-0.9.0.tgz#739d769cd9b91c373e05c234e87a9a7a47b0a283"
+  integrity sha512-gs+8vPd+CRB+cuONC95ag7a1jfJW02cLjTvi+hM7zqcRN+UnAD+/pcu3uGKW5FLOxN4Dily1M2Q1jLtkIyBJZA==
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-proposal-class-properties" "^7.5.5"
@@ -17,6 +17,7 @@
     "@vue/babel-helper-vue-jsx-merge-props" "^1.0.0"
     "@vue/babel-preset-jsx" "^1.1.1"
     babel-plugin-import "^1.12.2"
+    babel-plugin-transform-commonjs "^1.1.6"
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
     babel-plugin-transform-remove-console "^6.9.4"
     babel-plugin-transform-typescript-metadata "^0.2.2"
@@ -73,12 +74,12 @@
     "@commitlint/cli" "^8.2.0"
     lint-staged "^9.4.2"
 
-"@1stg/lib-config@^0.1.5":
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/@1stg/lib-config/-/lib-config-0.1.5.tgz#f664bda7666f99d26c2e1d2be334371cb701e1b1"
-  integrity sha512-d+3FNrcivRXHiJOn8xuiUPf8D+YcQXYhdFH+uAl9PYs3SmE5CenWh5qDNm3B8vgQeIELLFvLCBPWEbTFX4q3kA==
+"@1stg/lib-config@^0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@1stg/lib-config/-/lib-config-0.1.6.tgz#c76e273386fcd79546dcf798c54e31e8e7924e9a"
+  integrity sha512-CXHF1fLmtRgMTrIK7XBeV76eEhXismFH/w9GaHh5N08EyfngxxMwlFREjKvkCNehvJHGPNrDfHjH8DwQF0OiwA==
   dependencies:
-    "@1stg/babel-preset" "^0.8.2"
+    "@1stg/babel-preset" "^0.9.0"
     "@1stg/commitlint-config" "^0.2.1"
     "@1stg/eslint-config" "^0.14.4"
     "@1stg/husky-config" "^0.4.0"
@@ -3307,6 +3308,13 @@ babel-plugin-syntax-jsx@^6.18.0:
   version "6.18.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.18.0.tgz#0af32a9a6e13ca7a3fd5069e62d7b0f58d0d8946"
   integrity sha1-CvMqmm4Tyno/1QaeYtew9Y0NiUY=
+
+babel-plugin-transform-commonjs@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-commonjs/-/babel-plugin-transform-commonjs-1.1.6.tgz#56927c87f0eba74e8037ff44d84057218fbf8a2c"
+  integrity sha512-nLPA5wR1LzYmJkYZSjIZVv5Fjqr+lBmgNCGCvUjHKnNGG1OX/kfWggUJECaowEW3D8SaLOyuOU2x4UQw6G5Rwg==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0"
 
 babel-plugin-transform-react-remove-prop-types@^0.4.24:
   version "0.4.24"

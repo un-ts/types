@@ -22,7 +22,7 @@
     "type-coverage": "type-coverage --cache --ignore-catch --detail --strict"
   },
   "devDependencies": {
-    "@1stg/lib-config": "^0.1.5",
+    "@1stg/lib-config": "^0.1.6",
     "@1stg/tslint-config": "^0.5.4",
     "@types/node": "^12.12.5",
     "dtslint": "^1.0.2",
