@@ -134,10 +134,10 @@
   optionalDependencies:
     tslib "^1.10.0"
 
-"@1stg/tslint-config@^0.5.4":
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/@1stg/tslint-config/-/tslint-config-0.5.4.tgz#86f27870a7b2f1b68b6d360cd3fde2e2217014bf"
-  integrity sha512-tlD9wuiizSEHIdwas0NSH3B7++c8OaATK1H4IP3h80+7dC4BFMXGgzrK3aQEJaD/tjE/DeGrIg9A5h1LibFNXQ==
+"@1stg/tslint-config@^0.5.5":
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/@1stg/tslint-config/-/tslint-config-0.5.5.tgz#c48ee2ebbe65918a202dc1ba563562ad41426257"
+  integrity sha512-K17EPchhxOwCbDSHQwsHSO6/MfrDEq1Gdxshk7KusHtlVyyUuIbHDiSt4viirUeeM3ONCCKMGOU2JyL8Zm3Sbg==
   dependencies:
     codelyzer "^5.2.0"
     rxjs-tslint "^0.1.7"
