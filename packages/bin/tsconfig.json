@@ -3,7 +3,6 @@
   "compilerOptions": {
     "composite": true,
     "importHelpers": false,
-    "rootDir": "src",
     "outDir": "lib"
   }
 }

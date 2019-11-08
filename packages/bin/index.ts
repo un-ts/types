@@ -13,10 +13,15 @@ const link = (dtsDir: string, pkgName: string) => {
   const paths = [srcPkg, resolve(dtsDir, '../@types', pkgName)] as const
 
   try {
-    fs.linkSync(...paths)
-  } catch (e) {
-    fs.symlinkSync(...(paths.concat('dir') as [string, string, 'dir']))
-  }
+    // tslint:disable-next-line: no-ignored-return
+    ;[
+      () => fs.linkSync(...paths),
+      () => fs.symlinkSync(...(paths.concat('dir') as [string, string, 'dir'])),
+    ].some(fn => {
+      fn()
+      return true
+    })
+  } catch {}
 }
 
 export default (dtsDir: string) => {
