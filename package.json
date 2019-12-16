@@ -32,7 +32,7 @@
     "tslint": "^5.20.1",
     "type-coverage": "^2.3.0",
     "typescript": "^3.7.2",
-    "vue": "^2.6.10"
+    "vue": "^2.6.11"
   },
   "commitlint": {
     "extends": [
