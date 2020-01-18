@@ -136,17 +136,17 @@
   optionalDependencies:
     tslib "^1.10.0"
 
-"@1stg/tslint-config@^0.5.5":
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/@1stg/tslint-config/-/tslint-config-0.5.5.tgz#c48ee2ebbe65918a202dc1ba563562ad41426257"
-  integrity sha512-K17EPchhxOwCbDSHQwsHSO6/MfrDEq1Gdxshk7KusHtlVyyUuIbHDiSt4viirUeeM3ONCCKMGOU2JyL8Zm3Sbg==
+"@1stg/tslint-config@^0.5.8":
+  version "0.5.8"
+  resolved "https://registry.yarnpkg.com/@1stg/tslint-config/-/tslint-config-0.5.8.tgz#61f0e0809f80e8c880df4ba6e1708ccfd2560322"
+  integrity sha512-W9a+Gu6ctXK6uAGZbNGzU0nGWAKOb/FocOQOGhaCOi7w4Sm012pLpvjKl3Udv6R9B4ZgGked3XvlFvhdkELd5w==
   dependencies:
-    codelyzer "^5.2.0"
+    codelyzer "^5.2.1"
     rxjs-tslint "^0.1.7"
     tslint-angular "^3.0.2"
-    tslint-config-eslint "^0.1.1"
+    tslint-config-eslint "^0.2.1"
     tslint-config-prettier "^1.18.0"
-    tslint-plugin-prettier "^2.0.1"
+    tslint-plugin-prettier "^2.1.0"
     tslint-react "^4.1.0"
     tslint-sonarts "^1.9.0"
 
@@ -3230,7 +3230,7 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
   integrity sha512-ReZxvNHIOv88FlT7rxcXIIC0fPt4KZqZbOlivyWtXLt8ESx84zd3kMC6iK5jVeS2qt+g7ftS7ye4fi06X5rtRQ==
 
-axobject-query@^2.0.2:
+axobject-query@2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/axobject-query/-/axobject-query-2.0.2.tgz#ea187abe5b9002b377f925d8bf7d1c561adf38f9"
   integrity sha512-MCeek8ZH7hKyO1rWUbKNQBbl4l2eY0ntk7OGi+q0RlafrCnfPxC06WZA+uebCfmYp4mNU9jRBP1AhGyf8+W3ww==
@@ -3830,14 +3830,14 @@ code-point-at@^1.0.0:
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
 
-codelyzer@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/codelyzer/-/codelyzer-5.2.0.tgz#b0ee573a12779c996090e596c5c1755479d83758"
-  integrity sha512-izfUfhEOOgAizszPlEDxo71DK/C4wprZw0vkY6UWcOSTQvN1JyfXf9DXwaV7WX+/JC+hH0ShXfdtGLA9Rca7LA==
+codelyzer@^5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/codelyzer/-/codelyzer-5.2.1.tgz#44fd431e128009f38c761828c33ebacba9549d32"
+  integrity sha512-awBZXFcJUyC5HMYXiHzjr3D24tww2l1D1OqtfA9vUhEtYr32a65A+Gblm/OvsO+HuKLYzn8EDMw1inSM3VbxWA==
   dependencies:
     app-root-path "^2.2.1"
     aria-query "^3.0.0"
-    axobject-query "^2.0.2"
+    axobject-query "2.0.2"
     css-selector-tokenizer "^0.7.1"
     cssauron "^1.4.0"
     damerau-levenshtein "^1.0.4"
@@ -11543,20 +11543,20 @@ tslint-angular@^3.0.2:
   resolved "https://registry.yarnpkg.com/tslint-angular/-/tslint-angular-3.0.2.tgz#6f7480cc34f26fcc03df18d7ec3d5ce364b65064"
   integrity sha512-UgeGO776Z7VvzCnW6pOsbL3qs7PwzZatKkk2OzQO45H9Zf4T+bNBz87nFkB96W/swyCHmpK2M0vl61n0biFVTQ==
 
-tslint-config-eslint@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/tslint-config-eslint/-/tslint-config-eslint-0.1.1.tgz#fd42b574c2a919b93d04b48a9f63d659c1ae00e1"
-  integrity sha512-kO9BDeZJZ8aD5oJzyS4UITT8fBC7xJD7S4SXIS65srkb+ZaO5ciwhL4uS+V0N5aRrX1wpIgJm/HyvJSKSaZ1EQ==
+tslint-config-eslint@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/tslint-config-eslint/-/tslint-config-eslint-0.2.1.tgz#365a4059082a6419603c4973bd4eba1554b67135"
+  integrity sha512-+Rck9+2y/dPR+D/dq4pX4xt91lZMlZS63uCuFOzRDsr97G4lfR94SwqVqnCT0vIHrjdyqvtd7oLV33xsylCNrg==
 
 tslint-config-prettier@^1.18.0:
   version "1.18.0"
   resolved "https://registry.yarnpkg.com/tslint-config-prettier/-/tslint-config-prettier-1.18.0.tgz#75f140bde947d35d8f0d238e0ebf809d64592c37"
   integrity sha512-xPw9PgNPLG3iKRxmK7DWr+Ea/SzrvfHtjFt5LBl61gk2UBG/DB9kCXRjv+xyIU1rUtnayLeMUVJBcMX8Z17nDg==
 
-tslint-plugin-prettier@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/tslint-plugin-prettier/-/tslint-plugin-prettier-2.0.1.tgz#95b6a3b766622ffc44375825d7760225c50c3680"
-  integrity sha512-4FX9JIx/1rKHIPJNfMb+ooX1gPk5Vg3vNi7+dyFYpLO+O57F4g+b/fo1+W/G0SUOkBLHB/YKScxjX/P+7ZT/Tw==
+tslint-plugin-prettier@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/tslint-plugin-prettier/-/tslint-plugin-prettier-2.1.0.tgz#e2522d273cb9672d93d0e68f2514fe3c19698c3a"
+  integrity sha512-nMCpU+QSpXtydcWXeZF+3ljIbG/K8SHVZwB7K/MtuoQQFXxXN6watqTSBpVXCInuPFvmjiWkhxeMoUW4N0zgSg==
   dependencies:
     eslint-plugin-prettier "^2.2.0"
     lines-and-columns "^1.1.6"
