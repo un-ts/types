@@ -19,7 +19,7 @@ install: yarn --frozen-lockfile
 script:
   - yarn build
   - yarn lint
-  - yarn test
+  # - yarn test
   - yarn type-coverage
 
 before_deploy:

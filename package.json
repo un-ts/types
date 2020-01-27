@@ -11,28 +11,35 @@
   ],
   "scripts": {
     "build": "run-p build:*",
-    "build:bundle": "r",
+    "build:r": "r",
     "build:ts": "tsc -b",
     "lint": "run-p lint:*",
-    "lint:es": "cross-env PARSER_NO_WATCH=true eslint . --ext js,md,mdx,ts,tsx -f friendly",
+    "lint:es": "cross-env PARSER_NO_WATCH=true eslint . --cache --ext js,md,mdx,ts,tsx -f friendly",
     "lint:ts": "tslint -p . -t stylish",
     "lint:tsc": "tsc --incremental false --noEmit",
-    "postinstall": "t || exit 0",
+    "postinstall": "yarn-deduplicate && t || exit 0",
     "test": "ts-node scripts/dtslint",
-    "type-coverage": "type-coverage --cache --ignore-catch --detail --strict"
+    "type-coverage": "type-coverage --cache --detail --ignore-catch --strict"
   },
   "devDependencies": {
-    "@1stg/lib-config": "^0.1.12",
-    "@1stg/tslint-config": "^0.5.5",
-    "@types/node": "^12.12.6",
-    "dtslint": "^2.0.0",
-    "lerna": "^3.18.4",
+    "@1stg/lib-config": "^0.1.20",
+    "@1stg/tslint-config": "^0.5.9",
+    "@types/node": "^13.5.0",
+    "dtslint": "^2.0.5",
+    "lerna": "^3.20.2",
     "npm-run-all": "^4.1.5",
-    "ts-node": "^8.4.1",
-    "tslint": "^5.20.1",
-    "type-coverage": "^2.3.0",
-    "typescript": "^3.7.2",
-    "vue": "^2.6.10"
+    "ts-node": "^8.6.2",
+    "tslint": "^6.0.0",
+    "type-coverage": "^2.4.0",
+    "vue": "^2.6.11",
+    "yarn-deduplicate": "^1.1.1"
+  },
+  "resolutions": {
+    "@babel/code-frame": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/helper-plugin-utils": "^7.8.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "typescript": "^3.7.5"
   },
   "commitlint": {
     "extends": [

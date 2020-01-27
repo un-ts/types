@@ -1,29 +1,4 @@
 // tslint:disable: ordered-imports
-declare module 'rollup-plugin-copy' {
-  import { Plugin } from 'rollup'
-
-  namespace copy {
-    interface CopyOptions {
-      targets?: Array<{
-        src: string | string[]
-        dest: string | string[]
-        rename?: string | ((name: string, extension: string) => string)
-      }>
-      verbose?: boolean
-      hook?: string
-      copyOnce?: string
-    }
-
-    interface Copy extends Plugin {
-      (options: CopyOptions): Plugin
-    }
-  }
-
-  const copy: copy.Copy
-
-  export = copy
-}
-
 declare module 'rollup-plugin-babel' {
   import { TransformOptions } from '@babel/core'
   import { Plugin, WatcherOptions } from 'rollup'
