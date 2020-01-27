@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/rx-ts/types/compare/@d-ts/rollup-plugins@0.1.0...@d-ts/rollup-plugins@0.2.0) (2020-01-27)
+
+
+### Features
+
+* **rollup-plugins:** remove unnecessary rollup-plugin-copy definition ([f23aac3](https://github.com/rx-ts/types/commit/f23aac3be75167f3fd28f60a947b116b1aa342dd))
+
+
+
+
+
 # 0.1.0 (2019-11-03)
 
 

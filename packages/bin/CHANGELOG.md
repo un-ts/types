@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.4](https://github.com/rx-ts/types/compare/@d-ts/bin@0.3.3...@d-ts/bin@0.3.4) (2020-01-27)
+
+
+### Bug Fixes
+
+* **core:** try both possible link error ([50cffba](https://github.com/rx-ts/types/commit/50cffba3a6b29ca0913e0922e7f3b80759dd7a30))
+
+
+
+
+
 ## [0.3.3](https://github.com/rx-ts/types/compare/@d-ts/bin@0.3.2...@d-ts/bin@0.3.3) (2019-10-30)
 
 
