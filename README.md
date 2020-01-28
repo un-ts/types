@@ -1,7 +1,7 @@
 # @rxts/types
 
 [![GitHub Actions](https://github.com/rx-ts/types/workflows/Node%20CI/badge.svg)](https://github.com/rx-ts/types/actions?query=workflow%3A%22Node+CI%22)
-[![Codacy Grade](https://img.shields.io/codacy/grade/8e5221c1a3d344d3bb6221d26bc4fdcf)](https://www.codacy.com/app/rx-ts/types)
+[![Codacy Grade](https://img.shields.io/codacy/grade/f7fa1461627e47bcb1db24cca8de4963)](https://www.codacy.com/gh/rx-ts/types)
 [![type-coverage](https://img.shields.io/badge/dynamic/json.svg?label=type-coverage&prefix=%E2%89%A5&suffix=%&query=$.typeCoverage.atLeast&uri=https%3A%2F%2Fraw.githubusercontent.com%2Frx-ts%2Ftypes%2Fmaster%2Fpackage.json)](https://github.com/plantain-00/type-coverage)
 [![GitHub release](https://img.shields.io/github/release/rx-ts/types)](https://github.com/rx-ts/types/releases)
 [![David Dev](https://img.shields.io/david/dev/rx-ts/types.svg)](https://david-dm.org/rx-ts/types?type=dev)

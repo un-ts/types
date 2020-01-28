@@ -48,7 +48,7 @@ jobs:
           CODACY_PROJECT_TOKEN: ${{ secrets.CODACY_PROJECT_TOKEN }}
 
       - name: Code Checks
-        if: matrix.os == 'macOS-latest'
+        if: matrix.os == 'macOS-latest' && github.event_name == 'push'
         run: |
           yarn global add @codechecks/client @codechecks/build-size-watcher @codechecks/type-coverage-watcher typescript
           codechecks
@@ -65,7 +65,6 @@ jobs:
           yarn lerna publish --create-release github --yes
         env:
           CI: 'true'
-          GITHUB_AUTH: ${{ secrets.GITHUB_TOKEN }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
