@@ -1,6 +1,6 @@
 {
   "name": "@d-ts/core",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "Core/Global TypeScript Type Definitions",
   "repository": "git+https://github.com/rx-ts/types.git",
   "homepage": "https://github.com/rx-ts/types/tree/master/packages/core",
