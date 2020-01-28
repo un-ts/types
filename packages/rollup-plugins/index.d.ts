@@ -1,3 +1,3 @@
-// TypeScript Version: 3.0
+// TypeScript Version: 3.4
 
 /// <reference path="shim.d.ts" />

@@ -19,7 +19,8 @@
   "types": "lib",
   "files": [
     "cli.js",
-    "lib"
+    "lib",
+    "!lib/*.tsbuildinfo"
   ],
   "publishConfig": {
     "access": "public"

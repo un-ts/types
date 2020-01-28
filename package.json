@@ -10,16 +10,17 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "run-p build:*",
-    "build:r": "r",
+    "build": "run-s build:ts build:r",
+    "build:r": "r -p",
     "build:ts": "tsc -b",
+    "clean": "rimraf packages/*/lib",
     "lint": "run-p lint:*",
     "lint:es": "cross-env PARSER_NO_WATCH=true eslint . --cache --ext js,md,mdx,ts,tsx -f friendly",
     "lint:ts": "tslint -p . -t stylish",
-    "lint:tsc": "tsc --incremental false --noEmit",
+    "lint:tsc": "tsc --noEmit",
     "postinstall": "yarn-deduplicate && t || exit 0",
     "test": "ts-node scripts/dtslint",
-    "type-coverage": "type-coverage --cache --detail --ignore-catch --strict"
+    "type-coverage": "type-coverage --cache --detail --ignore-catch --ignore-files '**/*.d.ts' --strict"
   },
   "devDependencies": {
     "@1stg/lib-config": "^0.1.20",
