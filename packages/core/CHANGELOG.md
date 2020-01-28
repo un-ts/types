@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.7.0 (2020-01-28)
+
+
+### Features
+
+* **rollup-plugins:** remove unnecessary rollup-plugin-typescript definition ([42ed6cc](https://github.com/rx-ts/types/commit/42ed6cca2c473a463035c105760428d96dca0a75))
+
+
+
+
+
 # [0.6.0](https://github.com/rx-ts/types/compare/@d-ts/core@0.5.1...@d-ts/core@0.6.0) (2019-10-30)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@d-ts/webpack-plugins",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Additional webpack and related plugins TypeScript Type Definitions",
   "repository": "git+https://github.com/rx-ts/types.git",
   "homepage": "https://github.com/rx-ts/types/tree/master/packages/webpack-plugins",
