@@ -3,7 +3,9 @@ declare module 'rollup-plugin-babel' {
   import { Plugin, WatcherOptions } from 'rollup'
 
   namespace babel {
-    interface BabelOptions extends TransformOptions, WatcherOptions {
+    interface BabelOptions
+      extends Omit<TransformOptions, 'include' | 'exclude'>,
+        WatcherOptions {
       externalHelpers?: boolean
       externalHelpersWhitelist?: string[]
       extensions?: string[]

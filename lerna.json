@@ -23,9 +23,7 @@
     "publish": {
       "ignoreChanges": [
         "**/test/**",
-        "**/*.md",
-        "**/tsconfig.json",
-        "**/tslint.json"
+        "**/*.md"
       ]
     }
   }
