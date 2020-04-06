@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@1stg/lib-config": "^0.4.3",
-    "@1stg/tslint-config": "^0.8.2",
+    "@1stg/tslint-config": "^0.8.3",
     "@types/node": "^13.7.4",
     "dtslint": "^3.0.0",
     "lerna": "^3.20.2",
