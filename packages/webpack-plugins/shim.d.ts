@@ -5,12 +5,6 @@ declare module 'html-webpack-harddisk-plugin' {
   export = HtmlWebpackHarddiskPlugin
 }
 
-declare module 'html-webpack-inline-source-plugin' {
-  import { Plugin } from 'webpack'
-  class HtmlWebpackInlineSourcePlugin extends Plugin {}
-  export = HtmlWebpackInlineSourcePlugin
-}
-
 declare module 'lazy-compile-webpack-plugin' {
   import { Plugin, Stats } from 'webpack'
 
