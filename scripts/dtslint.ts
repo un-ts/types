@@ -5,13 +5,13 @@ import { promisify } from 'util'
 const exec = promisify(_exec)
 const readdir = promisify(_readdir)
 
-const IGNORED_PKGS = ['bin']
+const IGNORED_PKGS = new Set(['bin'])
 
 readdir('packages')
   .then(pkgs =>
     Promise.all(
       pkgs
-        .filter(pkg => !IGNORED_PKGS.includes(pkg))
+        .filter(pkg => !IGNORED_PKGS.has(pkg))
         .map(pkg => exec(`yarn dtslint --expectOnly packages/${pkg}`)),
     ),
   )

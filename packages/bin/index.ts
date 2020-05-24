@@ -10,6 +10,7 @@ const link = (dtsDir: string, pkgName: string) => {
   }
 
   const srcPkg = resolve(dtsDir, pkgName)
+  // tslint:disable-next-line: no-useless-cast
   const paths = [srcPkg, resolve(dtsDir, '../@types', pkgName)] as const
 
   try {
