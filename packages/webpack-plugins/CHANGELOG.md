@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/rx-ts/types/compare/@d-ts/webpack-plugins@0.3.3...@d-ts/webpack-plugins@0.4.0) (2020-05-24)
+
+
+### Features
+
+* **webpack-plugins:** remove html-webpack-inline-source-plugin ([f5a3e44](https://github.com/rx-ts/types/commit/f5a3e4478987b01f06161592cfee4d5fbffe2c53))
+
+
+
+
+
 ## [0.3.3](https://github.com/rx-ts/types/compare/@d-ts/webpack-plugins@0.3.2...@d-ts/webpack-plugins@0.3.3) (2020-02-22)
 
 **Note:** Version bump only for package @d-ts/webpack-plugins
