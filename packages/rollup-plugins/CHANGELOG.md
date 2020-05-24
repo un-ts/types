@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/rx-ts/types/compare/@d-ts/rollup-plugins@0.3.3...@d-ts/rollup-plugins@0.4.0) (2020-05-24)
+
+
+### Features
+
+* change to @rollup/plugin-babel types ([544b5fd](https://github.com/rx-ts/types/commit/544b5fdcb44a2c6c63ba9391752bef8affad4711))
+
+
+
+
+
 ## [0.3.3](https://github.com/rx-ts/types/compare/@d-ts/rollup-plugins@0.3.2...@d-ts/rollup-plugins@0.3.3) (2020-02-22)
 
 **Note:** Version bump only for package @d-ts/rollup-plugins
