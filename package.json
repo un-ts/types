@@ -38,7 +38,7 @@
   "resolutions": {
     "@babel/core": "^7.9.6",
     "@babel/helper-plugin-utils": "^7.8.3",
-    "typescript": "^3.9.3"
+    "typescript": "^3.9.6"
   },
   "commitlint": {
     "extends": [
