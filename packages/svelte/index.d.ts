@@ -9,7 +9,7 @@ declare module '*.svelte' {
     intro?: boolean
   }
 
-  interface Component<P = {}> {
+  interface Component<P = unknown> {
     // eslint-disable-next-line @typescript-eslint/no-misused-new
     new (options: ComponentOptions<P>): Component
     // client-side methods

@@ -1,28 +1,16 @@
 import fs from 'fs'
 import { resolve } from 'path'
 
-const PKG_PREFIX = '@d-ts/'
-const PRIMARY_PKG = PKG_PREFIX + 'bin'
-
 const link = (dtsDir: string, pkgName: string) => {
-  if (PKG_PREFIX + pkgName === PRIMARY_PKG) {
+  if (pkgName === 'bin') {
     return
   }
 
-  const srcPkg = resolve(dtsDir, pkgName)
-  // tslint:disable-next-line: no-useless-cast
-  const paths = [srcPkg, resolve(dtsDir, '../@types', pkgName)] as const
-
-  try {
-    // tslint:disable-next-line: no-ignored-return
-    ;[
-      () => fs.linkSync(...paths),
-      () => fs.symlinkSync(...(paths.concat('dir') as [string, string, 'dir'])),
-    ].some(fn => {
-      fn()
-      return true
-    })
-  } catch {}
+  fs.symlinkSync(
+    resolve(dtsDir, pkgName),
+    resolve(dtsDir, '../@types', pkgName),
+    'dir',
+  )
 }
 
 export default (dtsDir: string) => {
@@ -30,6 +18,5 @@ export default (dtsDir: string) => {
     console.warn('no `@d-ts` packages found')
     return
   }
-  const linkDts = link.bind(null, dtsDir)
-  fs.readdirSync(dtsDir).forEach(linkDts)
+  fs.readdirSync(dtsDir).forEach(pkgName => link(dtsDir, pkgName))
 }

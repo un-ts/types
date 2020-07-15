@@ -20,25 +20,21 @@
     "lint:tsc": "tsc --noEmit",
     "postinstall": "yarn-deduplicate && t || exit 0",
     "test": "ts-node scripts/dtslint",
-    "type-coverage": "type-coverage --cache --detail --ignore-catch --ignore-files '**/*.d.ts' --strict"
+    "type-coverage": "type-coverage --cache --detail --ignore-catch --ignore-files '**/*.d.ts' --strict --update"
   },
   "devDependencies": {
-    "@1stg/lib-config": "^0.5.1",
-    "@1stg/tslint-config": "^0.8.4",
-    "@types/node": "^14.0.5",
-    "dtslint": "^3.6.4",
-    "lerna": "^3.21.0",
+    "@1stg/lib-config": "^0.5.5",
+    "@1stg/tslint-config": "^0.8.5",
+    "@types/node": "^14.0.23",
+    "dtslint": "^3.6.12",
+    "lerna": "^3.22.1",
     "npm-run-all": "^4.1.5",
-    "ts-node": "^8.10.1",
+    "ts-node": "^8.10.2",
     "tslint": "^6.1.2",
-    "type-coverage": "^2.6.1",
+    "type-coverage": "^2.8.4",
+    "typescript": "^3.9.6",
     "vue": "^2.6.11",
-    "yarn-deduplicate": "^2.0.0"
-  },
-  "resolutions": {
-    "@babel/core": "^7.9.6",
-    "@babel/helper-plugin-utils": "^7.8.3",
-    "typescript": "^3.9.3"
+    "yarn-deduplicate": "^2.1.1"
   },
   "commitlint": {
     "extends": [
