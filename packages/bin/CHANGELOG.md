@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.1](https://github.com/rx-ts/types/compare/@d-ts/bin@0.5.0...@d-ts/bin@0.5.1) (2020-07-15)
+
+
+### Bug Fixes
+
+* symlink packages correctly ([ed7292c](https://github.com/rx-ts/types/commit/ed7292c2e3c925033081742b97c234e90aadeb0c))
+
+
+
+
+
 # [0.5.0](https://github.com/rx-ts/types/compare/@d-ts/bin@0.4.2...@d-ts/bin@0.5.0) (2020-05-24)
 
 
