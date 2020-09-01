@@ -32,7 +32,7 @@
     "ts-node": "^8.10.2",
     "tslint": "^6.1.2",
     "type-coverage": "^2.8.4",
-    "typescript": "^3.9.6",
+    "typescript": "^3.9.7",
     "vue": "^2.6.11",
     "yarn-deduplicate": "^2.1.1"
   },
