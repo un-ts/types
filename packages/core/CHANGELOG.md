@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/rx-ts/types/compare/@d-ts/core@0.7.3...@d-ts/core@1.0.0) (2021-02-20)
+
+**Note:** Version bump only for package @d-ts/core
+
+
+
+
+
 ## [0.7.3](https://github.com/rx-ts/types/compare/@d-ts/core@0.7.2...@d-ts/core@0.7.3) (2020-02-22)
 
 **Note:** Version bump only for package @d-ts/core
