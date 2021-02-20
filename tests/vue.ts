@@ -1,3 +1,5 @@
+import { createApp } from 'vue'
+
 import Test from './test.vue'
 
-export { Test }
+createApp(Test)

@@ -2,7 +2,7 @@
   "name": "@rxts/types",
   "version": 2,
   "alias": [
-    "types.now.sh"
+    "types.vercel.app"
   ],
   "github": {
     "silent": true

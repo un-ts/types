@@ -5,3 +5,5 @@
 .type-coverage
 lib
 node_modules
+
+.vercel

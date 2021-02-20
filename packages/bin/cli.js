@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-const { resolve } = require('path')
+const path = require('path')
 
-module.exports = require('./lib/cjs')(resolve('node_modules/@d-ts'))
+module.exports = require('./lib/cjs')(path.resolve('node_modules/@d-ts'))
