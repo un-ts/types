@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.2](https://github.com/rx-ts/types/compare/@d-ts/bin@0.5.1...@d-ts/bin@0.5.2) (2021-02-20)
+
+**Note:** Version bump only for package @d-ts/bin
+
+
+
+
+
 ## [0.5.1](https://github.com/rx-ts/types/compare/@d-ts/bin@0.5.0...@d-ts/bin@0.5.1) (2020-07-15)
 
 
