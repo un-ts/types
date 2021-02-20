@@ -30,7 +30,7 @@ jobs:
         run: |
           yarn build
           yarn lint
-        # yarn test
+          # yarn test # blocked by https://github.com/microsoft/dtslint/pull/89#issuecomment-782581190
         env:
           EFF_NO_LINK_RULES: 'true'
           PARSER_NO_WATCH: 'true'

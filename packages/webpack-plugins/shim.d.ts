@@ -1,12 +1,16 @@
 // tslint:disable: ordered-imports
 declare module 'html-webpack-harddisk-plugin' {
-  import { Plugin } from 'webpack'
-  class HtmlWebpackHarddiskPlugin extends Plugin {}
+  import { Compiler } from 'webpack'
+
+  class HtmlWebpackHarddiskPlugin {
+    apply(compiler: Compiler): void
+  }
+
   export = HtmlWebpackHarddiskPlugin
 }
 
 declare module 'lazy-compile-webpack-plugin' {
-  import { Plugin, Stats } from 'webpack'
+  import { Compiler, Stats } from 'webpack'
 
   namespace LazyCompileWebpackPlugin {
     interface Options {
@@ -17,8 +21,10 @@ declare module 'lazy-compile-webpack-plugin' {
     }
   }
 
-  class LazyCompileWebpackPlugin extends Plugin {
+  class LazyCompileWebpackPlugin {
     constructor(options?: LazyCompileWebpackPlugin.Options)
+
+    apply(compiler: Compiler): void
   }
 
   export = LazyCompileWebpackPlugin

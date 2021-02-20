@@ -20,6 +20,9 @@
     "rollup",
     "rollup-plugins"
   ],
+  "peerDependencies": {
+    "rollup": "*"
+  },
   "publishConfig": {
     "access": "public"
   }
