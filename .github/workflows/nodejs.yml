@@ -52,7 +52,7 @@ jobs:
           git remote set-url origin "https://$GITHUB_ACTOR:$GH_TOKEN@github.com/$GITHUB_REPOSITORY.git"
           git checkout master
           npm set //registry.npmjs.org/:_authToken $NPM_TOKEN
-          yarn lerna publish --create-release github --yes
+          yarn lerna publish --conventional-commits --create-release github --yes
         env:
           CI: 'true'
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

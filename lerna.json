@@ -15,16 +15,14 @@
       "allowBranch": [
         "develop",
         "master"
-      ],
-      "conventionalCommits": true,
-      "gitReset": false,
-      "message": "chore: release package(s)"
+      ]
     },
     "publish": {
       "ignoreChanges": [
         "**/test/**",
         "**/*.md"
-      ]
+      ],
+      "message": "chore: release package(s)"
     }
   }
 }
