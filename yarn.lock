@@ -137,16 +137,16 @@
   resolved "https://registry.yarnpkg.com/@1stg/tsconfig/-/tsconfig-1.1.0.tgz#964a2a0ca86e97378df01f6882d1825aa8f13827"
   integrity sha512-a5AovtABih6h1i2ryG67UybpkqWWoGHFRW2IzAJMMtatu9XXMoOHD6T8ZA5rbM/Pl1ZdgvPe/ExPzf5gQe939g==
 
-"@1stg/tslint-config@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@1stg/tslint-config/-/tslint-config-1.0.1.tgz#c7dc1e51cfd5a78d2322621f2b51700cff9dc372"
-  integrity sha512-6mRf+x61CLVnStKml22V8fzHaijSuMl8z5ZvJSsttdnH2pa/6CEKnGrM++1It5g8exM6+icgd7WTsVsCbgI78Q==
+"@1stg/tslint-config@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@1stg/tslint-config/-/tslint-config-1.2.0.tgz#a60e8734b561ea01310f27daa3abe13052102817"
+  integrity sha512-MKSvpm94RTcHf1oZRfobRVA34HxPZN0tZ+6KMWyaaz336KUrti8InCwJyx2UzB2eoKdexk87wnjkLh9qIhKsXg==
   dependencies:
     "@rxts/rxjs-tslint" "^0.2.1"
     codelyzer "^6.0.1"
     ng-tslint "^1.1.0"
     tslint-angular "^3.0.3"
-    tslint-config-eslint "^0.2.2"
+    tslint-config-eslint "^0.5.2"
     tslint-config-prettier "^1.18.0"
     tslint-plugin-prettier "^3.0.0-beta.0"
     tslint-react "^5.0.0"
@@ -13302,10 +13302,10 @@ tslint-angular@^3.0.3:
   resolved "https://registry.yarnpkg.com/tslint-angular/-/tslint-angular-3.0.3.tgz#872d4fe36497d20582dbe4b8ed3338ff0c922c30"
   integrity sha512-5xD1gLE89lBExfSbMslDw/ZfOZM0t0CJsoJa4svsgF7tlwVS3IpXjzNcNRN0RZqDBj+cdTlbeel6GpZ3PqpPiw==
 
-tslint-config-eslint@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/tslint-config-eslint/-/tslint-config-eslint-0.2.2.tgz#1e86f7c8bbdd57956e8ea7e4bbb7ab3f53a073c8"
-  integrity sha512-OWModuJu/KV/zwngdx2p6UnVVJExcYt7xsFxBLjtbP6x+TS/55bdSxXdQi1GPcpNvBU3+PRy3MXd0Xbyp9OoEQ==
+tslint-config-eslint@^0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/tslint-config-eslint/-/tslint-config-eslint-0.5.2.tgz#c9c5c3442c3203bb5031b83c2c1bfacf1aeab3fe"
+  integrity sha512-ozsw7WWcOI7mk+dobiXY22qqCnZt6dX3X+Qe0khXjf1/nOO8jLYDx1Ha5/V4ZG9mA9fez79PAPaujkWQq9ci8w==
 
 tslint-config-prettier@^1.18.0:
   version "1.18.0"
