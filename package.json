@@ -40,7 +40,7 @@
   },
   "resolutions": {
     "@babel/core": "^7.14.3",
-    "prettier": "^2.2.1"
+    "prettier": "^2.3.0"
   },
   "commitlint": {
     "extends": [
