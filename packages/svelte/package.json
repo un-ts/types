@@ -20,7 +20,7 @@
     "svelte"
   ],
   "peerDependencies": {
-    "svelte": ">=3.34.0"
+    "svelte": ">=3.42.1"
   },
   "publishConfig": {
     "access": "public"
