@@ -3,7 +3,6 @@
 .*cache
 .changelog
 .type-coverage
+.vercel
 lib
 node_modules
-
-.vercel

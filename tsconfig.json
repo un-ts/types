@@ -1,15 +1,17 @@
 {
-  "extends": "./tsconfig.base.json",
+  "extends": "./tsconfig.base",
   "compilerOptions": {
     "baseUrl": ".",
-    "incremental": false,
-    "noEmit": true,
-    "module": "commonjs",
     "typeRoots": ["node_modules/@types", "packages"]
   },
   "references": [
     {
       "path": "packages/bin"
     }
-  ]
+  ],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
 }

@@ -3,7 +3,7 @@ declare module '*.json' {
     interface JsonObject {
       [key: string]: JsonItem | JsonItem[]
     }
-    type JsonItem = JsonObject | string | number | null
+    type JsonItem = JsonObject | number | string | null
     type Json = JsonItem | JsonItem[]
   }
 
