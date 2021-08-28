@@ -23,7 +23,7 @@
     "type-coverage": "type-coverage --cache --detail --ignore-catch --ignore-files '**/*.d.ts' --strict -u"
   },
   "devDependencies": {
-    "@1stg/lib-config": "^1.0.4",
+    "@1stg/lib-config": "^1.2.11",
     "@1stg/tslint-config": "^1.0.0",
     "@types/node": "^14.14.31",
     "dtslint": "^4.0.7",
