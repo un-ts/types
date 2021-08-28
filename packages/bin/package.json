@@ -1,6 +1,7 @@
 {
   "name": "@d-ts/bin",
   "version": "1.0.0",
+  "type": "module",
   "description": "Link @d-ts packages to @types automatically",
   "repository": "git+https://github.com/rx-ts/types.git",
   "homepage": "https://github.com/rx-ts/types/tree/master/packages/bin",
@@ -10,16 +11,14 @@
     "node": "*"
   },
   "bin": {
-    "t": "cli.js"
+    "t": "./lib/cli.js"
   },
-  "main": "lib/cjs",
-  "module": "lib",
-  "es2015": "lib/es2015",
-  "fesm5": "lib/esm",
+  "exports": {
+    "require": "./lib/index.cjs",
+    "import": "./lib/index.js"
+  },
   "types": "lib",
   "files": [
-    "!lib/*.tsbuildinfo",
-    "cli.js",
     "lib"
   ],
   "publishConfig": {

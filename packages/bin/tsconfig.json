@@ -2,7 +2,8 @@
   "extends": "../../tsconfig.base",
   "compilerOptions": {
     "composite": true,
-    "importHelpers": false,
-    "outDir": "lib"
-  }
+    "outDir": "lib",
+    "rootDir": "src"
+  },
+  "exclude": ["lib"]
 }

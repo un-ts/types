@@ -8,24 +8,3 @@ declare module 'html-webpack-harddisk-plugin' {
 
   export = HtmlWebpackHarddiskPlugin
 }
-
-declare module 'lazy-compile-webpack-plugin' {
-  import { Compiler, Stats } from 'webpack'
-
-  namespace LazyCompileWebpackPlugin {
-    interface Options {
-      refreshAfterCompile?: boolean
-      ignores?:
-        | RegExp[]
-        | ((request: string, wpModule: Stats.Reason) => boolean)
-    }
-  }
-
-  class LazyCompileWebpackPlugin {
-    constructor(options?: LazyCompileWebpackPlugin.Options)
-
-    apply(compiler: Compiler): void
-  }
-
-  export = LazyCompileWebpackPlugin
-}
