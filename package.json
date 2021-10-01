@@ -26,7 +26,7 @@
     "@changesets/changelog-github": "^0.4.1",
     "@changesets/cli": "^2.17.0",
     "@types/node": "^16.7.4",
-    "postcss": "^8.3.6",
+    "postcss": "^8.3.8",
     "svelte": "^3.42.5",
     "ts-node": "^10.2.1",
     "type-coverage": "^2.18.2",
