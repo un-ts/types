@@ -25,7 +25,7 @@
     "@1stg/lib-config": "^4.0.0",
     "@changesets/changelog-github": "^0.4.2",
     "@changesets/cli": "^2.19.0",
-    "@types/node": "^16.7.4",
+    "@types/node": "^16.11.17",
     "postcss": "^8.3.11",
     "svelte": "^3.43.2",
     "ts-node": "^10.2.1",
