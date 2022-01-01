@@ -35,7 +35,7 @@
     "webpack": "^5.51.1"
   },
   "resolutions": {
-    "prettier": "^2.4.1"
+    "prettier": "^2.5.1"
   },
   "commitlint": {
     "extends": [
