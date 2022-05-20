@@ -1,6 +1,6 @@
 {
   "name": "@d-ts/svelte",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Additional Svelte TypeScript Type Definitions",
   "repository": "git+https://github.com/rx-ts/types.git",
   "homepage": "https://github.com/rx-ts/types/tree/master/packages/svelte",
