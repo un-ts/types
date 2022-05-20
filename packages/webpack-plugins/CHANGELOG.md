@@ -12,9 +12,6 @@
 
 - [#127](https://github.com/rx-ts/types/pull/127) [`4da2bf7`](https://github.com/rx-ts/types/commit/4da2bf7e1f185b0889bf68bb5158d1c2277e246a) Thanks [@JounQin](https://github.com/JounQin)! - feat: migrate to native esm
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
-
 # [1.0.0](https://github.com/rx-ts/types/compare/@d-ts/webpack-plugins@0.4.1...@d-ts/webpack-plugins@1.0.0) (2021-02-20)
 
 **Note:** Version bump only for package @d-ts/webpack-plugins
