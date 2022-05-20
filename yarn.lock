@@ -294,7 +294,7 @@
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.17.10.tgz#711dc726a492dfc8be8220028b1b92482362baab"
   integrity sha512-GZt/TCsG70Ms19gfZO1tM4CVnXsPgEPBCpJu+Qz3L0LUDsY5nZqFZglIoPC1kIYOtNBZlrnFT+klg12vFGZXrw==
 
-"@babel/core@^7.11.1", "@babel/core@^7.11.6", "@babel/core@^7.12.3", "@babel/core@^7.15.5", "@babel/core@^7.17.10", "@babel/core@^7.17.12", "@babel/core@^7.17.9":
+"@babel/core@^7.11.1", "@babel/core@^7.11.6", "@babel/core@^7.12.3", "@babel/core@^7.15.5", "@babel/core@^7.17.10", "@babel/core@^7.17.9", "@babel/core@^7.18.0":
   version "7.18.0"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.18.0.tgz#c58d04d7c6fbfb58ea7681e2b9145cfb62726756"
   integrity sha512-Xyw74OlJwDijToNi0+6BBI5mLLR5+5R3bcSH80LXzjzEGEUlvNzujEE71BaD/ApEZHAvFI/Mlmp4M5lIkdeeWw==
@@ -1274,7 +1274,7 @@
     "@babel/helper-create-regexp-features-plugin" "^7.16.7"
     "@babel/helper-plugin-utils" "^7.16.7"
 
-"@babel/preset-env@^7.11.0", "@babel/preset-env@^7.15.6", "@babel/preset-env@^7.16.11", "@babel/preset-env@^7.17.12":
+"@babel/preset-env@^7.11.0", "@babel/preset-env@^7.15.6", "@babel/preset-env@^7.16.11", "@babel/preset-env@^7.18.0":
   version "7.18.0"
   resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.18.0.tgz#ec7e51f4c6e026816000b230ed7cf74a1530d91d"
   integrity sha512-cP74OMs7ECLPeG1reiCQ/D/ypyOxgfm8uR6HRYV23vTJ7Lu1nbgj9DQDo/vH59gnn7GOAwtTDPPYV4aXzsMKHA==
@@ -2460,13 +2460,13 @@
     tslib "^2.4.0"
 
 "@pkgr/rollup@^3.0.1":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@pkgr/rollup/-/rollup-3.1.0.tgz#0b54ad7a25f11310dc61773055d73163f3c58124"
-  integrity sha512-dOhnYeRokguHdlaGzauBZ9Ey3V9TLJHGDMTO5j0C2kbeuX5LqUbWjBC7GgcxCqC/4aGfZWTC+QWemZH18pMakA==
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@pkgr/rollup/-/rollup-3.1.1.tgz#5d8494b2c960834f3a17be990143410da282c70b"
+  integrity sha512-x7gt4lAVWEwrnydcMzdJBBn7d9tG5h3rLNSi/NiHB7q4ilsS61pL4CNNW7Sl1ORv9hkXmLUhXB4Xg1fwkbGsmg==
   dependencies:
-    "@babel/core" "^7.17.12"
+    "@babel/core" "^7.18.0"
     "@babel/plugin-proposal-decorators" "^7.17.12"
-    "@babel/preset-env" "^7.17.12"
+    "@babel/preset-env" "^7.18.0"
     "@babel/preset-typescript" "^7.17.12"
     "@pkgr/es-modules" "^0.6.0"
     "@pkgr/umd-globals" "^0.8.0"
@@ -2488,7 +2488,7 @@
     lodash-es "^4.17.21"
     micromatch "^4.0.5"
     postcss "^8.4.14"
-    rollup "^2.74.0"
+    rollup "^2.74.1"
     rollup-plugin-copy "^3.4.0"
     rollup-plugin-esbuild "^4.9.1"
     rollup-plugin-postcss "^4.0.1"
@@ -2533,14 +2533,14 @@
     "@pkgr/webpack" "^3.0.0"
     "@svgr/webpack" "^6.2.1"
 
-"@pkgr/webpack@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@pkgr/webpack/-/webpack-3.0.0.tgz#6177e744d1b25616cd0bce2d4730ba27b89a5c96"
-  integrity sha512-r8vlRO1PjHheyYfDu2JNPItpm92YMLxLoTSZOWaqLT/d6gY80eX75pR0lrDWedLDnymseQ/qB312m5o+3OXxOA==
+"@pkgr/webpack@^3.0.0", "@pkgr/webpack@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@pkgr/webpack/-/webpack-3.0.2.tgz#73c4afdf6423d4dfdfabb2b04f10fe3c164d709c"
+  integrity sha512-e5s4WUYyeTaCDQfcGk93rJQxa01gq2LOac2h6I8uZ4ktyymYCilQif2TPBzmo80JyNJ4JGjko8e+Nl/nWwk3MQ==
   dependencies:
     "@1stg/babel-preset" "^3.0.0"
     "@1stg/postcss-config" "^3.1.0"
-    "@babel/core" "^7.17.12"
+    "@babel/core" "^7.18.0"
     "@pkgr/es-modules" "^0.6.0"
     "@pkgr/umd-globals" "^0.8.0"
     "@pkgr/utils" "^2.2.0"
@@ -2558,7 +2558,6 @@
     html-webpack-plugin "^5.5.0"
     jsox "^1.2.111"
     less-loader "^11.0.0"
-    lodash "^4.17.21"
     mini-css-extract-plugin "^2.4.5"
     postcss "^8.4.14"
     postcss-load-config "^3.1.4"
@@ -2567,7 +2566,7 @@
     pug-loader "^2.4.0"
     pug-plain-loader "^1.1.0"
     raw-loader "^4.0.2"
-    sass "^1.51.0"
+    sass "^1.52.0"
     sass-loader "^13.0.0"
     style-loader "^3.3.1"
     stylus "^0.57.0"
@@ -13801,7 +13800,7 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@^2.43.1, rollup@^2.74.0:
+rollup@^2.43.1, rollup@^2.74.1:
   version "2.74.1"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.74.1.tgz#4fba0ff1c312cc4ee82691b154eee69a0d01929f"
   integrity sha512-K2zW7kV8Voua5eGkbnBtWYfMIhYhT9Pel2uhBk2WO5eMee161nPze/XRfvEQPFYz7KgrCCnmh2Wy0AMFLGGmMA==
@@ -13869,7 +13868,7 @@ sass-loader@^13.0.0:
     klona "^2.0.4"
     neo-async "^2.6.2"
 
-sass@^1.51.0:
+sass@^1.52.0:
   version "1.52.0"
   resolved "https://registry.yarnpkg.com/sass/-/sass-1.52.0.tgz#3dc755ff459858ce7062887181648701f028c4f5"
   integrity sha512-6EnTglag2oVD8sNJCxUi2Jd3ICH9tJ5Mqudt/gIZNBR2uKJUBZuTpW9O1t04SkDLP7VFa76FCWTV2rwchqM8Kw==
