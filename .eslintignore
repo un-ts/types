@@ -1,3 +1,6 @@
-CHANGELOG.md
+dist
 lib
+CHANGELOG.md
 !/.*.js
+# no idea how to fix this...
+/packages/bin/src/index.ts

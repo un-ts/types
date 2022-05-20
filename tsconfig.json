@@ -1,5 +1,5 @@
 {
-  "extends": "./tsconfig.base",
+  "extends": "./tsconfig.lib",
   "compilerOptions": {
     "baseUrl": ".",
     "typeRoots": ["node_modules/@types", "packages"]
@@ -13,5 +13,6 @@
     "compilerOptions": {
       "module": "CommonJS"
     }
-  }
+  },
+  "exclude": ["docs"]
 }

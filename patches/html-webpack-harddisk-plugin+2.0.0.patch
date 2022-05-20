@@ -1,0 +1,21 @@
+diff --git a/node_modules/html-webpack-harddisk-plugin/index.d.ts b/node_modules/html-webpack-harddisk-plugin/index.d.ts
+index 17e482e..35483b5 100644
+--- a/node_modules/html-webpack-harddisk-plugin/index.d.ts
++++ b/node_modules/html-webpack-harddisk-plugin/index.d.ts
+@@ -1,4 +1,4 @@
+-import { Plugin } from 'webpack';
++import { Compiler } from 'webpack';
+ 
+ interface HtmlWebpackHarddiskPluginOptions {
+   /**
+@@ -7,7 +7,9 @@ interface HtmlWebpackHarddiskPluginOptions {
+   outputPath?: string;
+ }
+ 
+-interface HtmlWebpackHarddiskPlugin extends Plugin {
++interface HtmlWebpackHarddiskPlugin {
++  apply(compiler: Compiler): void
++
+   new (options?: HtmlWebpackHarddiskPluginOptions): HtmlWebpackHarddiskPlugin;
+ }
+ 

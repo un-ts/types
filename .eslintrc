@@ -1,0 +1,36 @@
+{
+  "root": true,
+  "extends": [
+    "@1stg"
+  ],
+  "parserOptions": {
+    "project": [
+      "./tsconfig.json",
+      "./docs/tsconfig.json"
+    ]
+  },
+  "overrides": [
+    {
+      "files": [
+        "packages/*/*.d.ts"
+      ],
+      "rules": {
+        "unicorn/no-empty-file": 0
+      }
+    },
+    {
+      "files": [
+        "*.tsx"
+      ],
+      "rules": {
+        "react/react-in-jsx-scope": 0
+      }
+    },
+    {
+      "files": "docs/*.tsx",
+      "rules": {
+        "@typescript-eslint/no-unsafe-return": 0
+      }
+    }
+  ]
+}

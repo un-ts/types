@@ -1,3 +1,3 @@
 declare module 'jsox' {
-  export = JSON
+  export const JSOX: typeof JSON
 }

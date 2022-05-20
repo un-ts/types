@@ -1,3 +1,1 @@
-import svg from './test.svg'
-
-export { svg }
+export { default as svg } from './test.svg'

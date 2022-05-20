@@ -1,0 +1,8 @@
+{
+  "extends": "@1stg/tsconfig/app",
+  "compilerOptions": {
+    "baseUrl": ".",
+    // conflicts with Vue jsx
+    "types": ["mdx", "react", "react-dom"]
+  }
+}
