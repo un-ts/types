@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.1.1
+
+### Patch Changes
+
+- [`680a71c`](https://github.com/rx-ts/types/commit/680a71c4cfcd3a9521f8a18ff777ad43fdea5bb5) Thanks [@JounQin](https://github.com/JounQin)! - fix: jsox/svelte type issues
+
 ## 1.1.0
 
 ### Minor Changes
