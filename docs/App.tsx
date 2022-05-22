@@ -6,17 +6,18 @@ import {
   useParams,
 } from 'react-router-dom'
 
-import Home from '../README.md'
-
 import './global.css'
 import 'github-markdown-css'
 
-const Package = () => {
+const Readme = () => {
   const { name } = useParams<{ name: string }>()
-  const Pkg = lazy(() => import(`../packages/${name!}/README.md`))
+  const Readme = lazy(() =>
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-return
+    name ? import(`../packages/${name}/README.md`) : import('../README.md'),
+  )
   return (
     <Suspense>
-      <Pkg />
+      <Readme />
     </Suspense>
   )
 }
@@ -24,6 +25,7 @@ const Package = () => {
 const Changelog = () => {
   const { name } = useParams<{ name: string }>()
   const Changelog = lazy(() =>
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-return
     name
       ? import(`../packages/${name}/CHANGELOG.md`)
       : import('../CHANGELOG.md'),
@@ -44,7 +46,7 @@ export const App = () => (
       />
       <Route
         path="/packages/:name"
-        element={<Package />}
+        element={<Readme />}
       />
       <Route
         path="/packages/:name/CHANGELOG.md"
@@ -52,7 +54,7 @@ export const App = () => (
       />
       <Route
         path="/"
-        element={<Home />}
+        element={<Readme />}
       />
     </Routes>
   </Router>
