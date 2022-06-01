@@ -55,7 +55,7 @@
     "@commitlint/config-lerna-scopes" "^17.0.0"
     "@pkgr/utils" "^2.2.0"
 
-"@1stg/common-config@^4.1.1", "@1stg/common-config@^4.1.3":
+"@1stg/common-config@^4.1.3":
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/@1stg/common-config/-/common-config-4.1.3.tgz#8bb6ae4ff61c43dd7bcc7e27e26bedd89594869c"
   integrity sha512-eou2DEcw1FiuaiiWnxlpjymPjNa1C3l4moUcS9hyS2C/WHpoCVkIhwDcpmOrXK1VW/cJvaBodbwe7VRH8avQyg==
@@ -117,13 +117,13 @@
     eslint-plugin-unicorn "^42.0.0"
     eslint-plugin-vue "^9.0.1"
 
-"@1stg/lib-config@^6.1.1":
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/@1stg/lib-config/-/lib-config-6.1.1.tgz#ecf2e9e78c413eed9caa1ca34b3204096fefe3a9"
-  integrity sha512-w7WwEVz0ZWl5WSwTPv+q4Tx2B4a/vDI/bFOz4GlxqcHIncSQszl4iMocAPWUUVwSoxnub0MFl98h7dHmTmLF9Q==
+"@1stg/lib-config@^6.1.3":
+  version "6.1.3"
+  resolved "https://registry.yarnpkg.com/@1stg/lib-config/-/lib-config-6.1.3.tgz#7bdd68912b577fd6feb1178d1432f6e7e17d3ad9"
+  integrity sha512-rJjzkL/yk9rZJsemEtfhE8Xf//hvnxsfRsE1VMsiFQdCH39CT85IuzY1nMHHZM8xMD4HN2bG5Xmb7KqpZgu2IA==
   dependencies:
-    "@1stg/common-config" "^4.1.1"
-    "@pkgr/rollup" "^3.0.1"
+    "@1stg/common-config" "^4.1.3"
+    "@pkgr/rollup" "^3.1.1"
     jest "^28.1.0"
 
 "@1stg/lint-staged@^2.0.0":
@@ -2453,7 +2453,7 @@
     tiny-glob "^0.2.9"
     tslib "^2.4.0"
 
-"@pkgr/rollup@^3.0.1":
+"@pkgr/rollup@^3.1.1":
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/@pkgr/rollup/-/rollup-3.1.1.tgz#5d8494b2c960834f3a17be990143410da282c70b"
   integrity sha512-x7gt4lAVWEwrnydcMzdJBBn7d9tG5h3rLNSi/NiHB7q4ilsS61pL4CNNW7Sl1ORv9hkXmLUhXB4Xg1fwkbGsmg==
