@@ -2634,7 +2634,7 @@
     rehype-raw "^6.1.1"
     remark-gfm "^3.0.1"
 
-"@pkgr/webpack-react@^2.0.1", "@pkgr/webpack-react@^2.1.0":
+"@pkgr/webpack-react@^2.1.0", "@pkgr/webpack-react@^2.1.1":
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@pkgr/webpack-react/-/webpack-react-2.1.1.tgz#d66b7d7e2fd0ae435b386a34f474444aa4aabd0a"
   integrity sha512-DdYRZ9vQ+w9F2X3pBYFu594LmgIEs6q8p9uUAlrYDrU7JADpSsmzOxrZgzv2XpOQXba1DoKbs/Z+0UtWUmVnYQ==
