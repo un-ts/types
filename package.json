@@ -38,7 +38,7 @@
     "@types/react-dom": "^18.0.11",
     "github-markdown-css": "^5.2.0",
     "html-webpack-harddisk-plugin": "^2.0.0",
-    "patch-package": "^6.4.7",
+    "patch-package": "^6.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
