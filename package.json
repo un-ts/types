@@ -47,7 +47,7 @@
     "ts-node": "^10.9.2",
     "type-coverage": "^2.27.2",
     "typescript": "^4.9.5",
-    "vue": "^3.4.21"
+    "vue": "^3.4.26"
   },
   "resolutions": {
     "prettier": "^2.8.8"
