@@ -7533,10 +7533,10 @@ git-raw-commits@^2.0.0:
     split2 "^3.0.0"
     through2 "^4.0.0"
 
-github-markdown-css@^5.6.1:
-  version "5.6.1"
-  resolved "https://registry.yarnpkg.com/github-markdown-css/-/github-markdown-css-5.6.1.tgz#8ca3d5c3d93d79ea429fddafea091347ab374f78"
-  integrity sha512-DItLFgHd+s7HQmk63YN4/TdvLeRqk1QP7pPKTTPrDTYoI5x7f/luJWSOZxesmuxBI2srHp8RDyoZd+9WF+WK8Q==
+github-markdown-css@^5.7.0:
+  version "5.7.0"
+  resolved "https://registry.yarnpkg.com/github-markdown-css/-/github-markdown-css-5.7.0.tgz#40fa19a8b9826a22874f305c40a5260d4d57e90a"
+  integrity sha512-GoYhaqELL4YUjz4tZ00PQ4JzFQkMfrBVuEeRB8W74HoikHWNiaGqSgynpwJEc+xom5uf04qoD/tUSS6ziZltaQ==
 
 github-slugger@^1.0.0:
   version "1.4.0"
