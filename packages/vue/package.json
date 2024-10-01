@@ -20,7 +20,7 @@
     "vue"
   ],
   "peerDependencies": {
-    "vue": ">=3.4.38"
+    "vue": ">=3.5.10"
   },
   "publishConfig": {
     "access": "public"
